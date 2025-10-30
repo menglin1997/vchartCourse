@@ -3,6 +3,12 @@
 #### 介绍
 VChart视频教学资料
 
+官网地址：https://visactor.io/vchart
+
+案例仓库：
+github：https://github.com/menglin1997/vchartCourse.git
+码云：https://gitee.com/menglin1997/vchart.git
+
 ### 讲师公开信息
 
 > 可以通过公众号加交流群
