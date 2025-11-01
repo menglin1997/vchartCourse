@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- 1.引入 VChart -->
+  <script src="https://unpkg.com/@visactor/vchart/build/index.min.js"></script>
+  <body>
+    <!-- 创建dom -->
+     <!-- <div id="chart"></div> -->
+    <div id="chart" style="width: 500px;height: 500px;"></div>
+  </body>
+</html>
+<script>
+  // 创建柱状图图数据
+  // const spec = {
+  //   data: [
+  //     {
+  //       id: "barData",
+  //       values: [
+  //         { month: "Monday", sales: 22 },
+  //         { month: "Tuesday", sales: 13 },
+  //         { month: "Wednesday", sales: 25 },
+  //         { month: "Thursday", sales: 29 },
+  //         { month: "Friday", sales: 38 },
+  //       ],
+  //     },
+  //   ],
+  //   type: "bar",
+  //   xField: "month",
+  //   yField: "sales",
+  // };
+
+  // 实例化组件
+  // const vchart = new VChart.default(xxx, { dom: xxx });
+  // 渲染图表
+  // vchart.renderSync();
+
+
+
+  const spec = {
+    data: [
+      {
+        id: "barData",
+        values: [
+          { month: "Monday", sales: 22 },
+          { month: "Tuesday", sales: 13 },
+          { month: "Wednesday", sales: 25 },
+          { month: "Thursday", sales: 29 },
+          { month: "Friday", sales: 38 },
+        ],
+      },
+    ],
+    type: "bar",
+    xField: "month",
+    yField: "sales",
+  };
+  const vchart = new VChart.default(spec,{
+    dom: "chart"
+  })
+  vchart.renderSync();
+</script>
