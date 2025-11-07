@@ -7,19 +7,22 @@ import { onMounted } from "vue";
 
 // 实现A组和B组近年的销售数据对比-Compare the sales data of A group and B group in recent years
 const spec = {
-  // 1.声明图表类型-Declare the type of chart
+  // 1.声明图表类型-Declare the type of chart 
+  // type
 
   // 2.声明数据-Declare the data
+  // data:[{id:xxx,values:[xxx]}]
  
   // 3.声明 x 轴字段，当存在分组时-Declare the x axis field when there is grouping
+  // xField: ['xxx', ''],
 
   // 4.声明 y 轴字段-Declare the y axis field
 
   // 5.用于颜色映射-Declare the series field for color mapping
 
-  // 6.系列配置: 图元样式,设置圆角样式-Declare the style of the bar element, set the corner radius
+  // 6.系列配置: 图元样式,设置柱状图圆角样式-Declare the style of the bar element, set the corner radius
   
-  // 7.系列配置: 图元标签-Declare the label of the bar element
+  // 7.系列配置: 显示图元标签,设置标签位置为顶部-Declare the label of the bar element
 
   // 8.配置图例-Declare the legend
 
