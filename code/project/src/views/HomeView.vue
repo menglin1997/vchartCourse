@@ -6,10 +6,12 @@ import course03 from '../components/course/course-03.vue'
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
+import preview04 from '../components/preview/LifeCycle-04.vue'
+
 </script>
 
 <template>
   <main>
-    <course03 />
+    <preview04 />
   </main>
 </template>

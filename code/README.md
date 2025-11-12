@@ -1,0 +1,1 @@
+每个章节下面的course开头的.vue文件和/code/project/src/components/course文件下的同名文件是一样的内容

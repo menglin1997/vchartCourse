@@ -1,0 +1,1 @@
+The .vue files starting with "course" under each chapter and the files with the same name under /code/project/src/components/course are the same content.
