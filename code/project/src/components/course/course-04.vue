@@ -51,66 +51,58 @@ const spec = {
 let vchart;
 onMounted(() => {
   vchart = new VChart(spec, {
-    dom: "chart",
-    interactive: true, // 交互开关
-    beforeRender: (stage) => {
-      /* 渲染前回调 */
-      // console.log('beforeRender', stage);
-    },
-    afterRender: (stage) => {
-      /* 渲染后回调 */
-      // console.log('afterRender', stage);
-    },
-  });
-
-  vchart.on("renderFinished", (event) => {
-    console.log("图表渲染完成，可以进行后续操作");
-  });
-
-  vchart.on("layoutStart", (event) => {
-    console.log("layoutStart layoutStart");
-  });
-
-  vchart.on("layoutEnd", (event) => {
-    console.log("layoutEnd layoutEnd");
-  });
-
-  // 图表渲染方法被调用时触发，表明图表已经执行过渲染逻辑，只会触发一次
-  vchart.on("rendered", (event) => {
-    console.log("rendered rendered");
-  });
-
-  // // 图表渲染完成回调-Chart rendered callback
-  // 每次画布渲染完成触发的事件，不包含动画结束
-  vchart.on("renderFinished", (event) => {
-    console.log("renderFinished 每次画布渲染完成触发的事件，不包含动画结束");
-  });
-
-  // 图表初始化完成回调-Chart initialized callback
-  vchart.on('initialized', (event) => {
-  	console.log('图表初始化完成')
+    dom:"chart"
   })
-
   vchart.renderSync();
+  // vchart = new VChart(spec, {
+  //   dom: "chart",
+  //   interactive: true, // 交互开关
+  //   beforeRender: (stage) => {
+  //     /* 渲染前回调 */
+  //     // console.log('beforeRender', stage);
+  //   },
+  //   afterRender: (stage) => {
+  //     /* 渲染后回调 */
+  //     // console.log('afterRender', stage);
+  //   },
+  // });
+
+  // vchart.on("renderFinished", (event) => {
+  //   console.log("图表渲染完成，可以进行后续操作");
+  // });
+
+  // vchart.on("layoutStart", (event) => {
+  //   console.log("layoutStart layoutStart");
+  // });
+
+  // vchart.on("layoutEnd", (event) => {
+  //   console.log("layoutEnd layoutEnd");
+  // });
+
+  // // 图表渲染方法被调用时触发，表明图表已经执行过渲染逻辑，只会触发一次
+  // vchart.on("rendered", (event) => {
+  //   console.log("rendered rendered");
+  // });
+
+  // // // 图表渲染完成回调-Chart rendered callback
+  // // 每次画布渲染完成触发的事件，不包含动画结束
+  // vchart.on("renderFinished", (event) => {
+  //   console.log("renderFinished 每次画布渲染完成触发的事件，不包含动画结束");
+  // });
+
+  // // 图表初始化完成回调-Chart initialized callback
+  // vchart.on('initialized', (event) => {
+  // 	console.log('图表初始化完成')
+  // })
+
+  // vchart.renderSync();
 });
 
-// 渲染图表函数-Function to render the chart
+// 渲染图表函数renderSync-Function to render the chart
 const renderChart = () => {
-  if (!vchart) {
-    vchart = new VChart(spec, {
-      dom: "chart",
-      interactive: true, // 交互开关
-      beforeRender: (stage) => {
-        /* 渲染前回调 */
-        // console.log('beforeRender', stage);
-      },
-      afterRender: (stage) => {
-        /* 渲染后回调 */
-        // console.log('afterRender', stage);
-      },
-    });
-  }
-
+   vchart = new VChart(spec, {
+    dom:"chart"
+  })
   vchart.renderSync();
 };
 
@@ -124,11 +116,19 @@ const data1 = [
   { type: "A", month: "10", value: 156, sales: 310 },
   { type: "B", month: "10", value: 189, sales: 300 },
 ];
+
+// 更新数据函数updateData(id,数据) - Update the data
 const updateData = () => {
   vchart.updateData("barData", data1);
 };
 
+// updateSpec更新配置，将图表转换为折线图 - Convert the chart to a line chart
 const updateSpec = () => {
+  spec['type'] = "line"
+  vchart.updateSpec({
+    type: "line",
+  },true)
+  // vchart.updateSpec(spec)
   // vchart.updateSpec({
   // 	// 新的配置项
   // 	title: {
@@ -138,16 +138,17 @@ const updateSpec = () => {
   // 	// 可以只更新部分配置
   // 	yField: 'sales'
   // },true)
-  spec["title"] = {
-    visible: true,
-    text: "销售额统计"
-  };
-  spec["type"] = "line";
-  vchart.updateSpec(spec);
+
+  // spec["title"] = {
+  //   visible: true,
+  //   text: "销售额统计"
+  // };
+  // spec["type"] = "line";
+  // vchart.updateSpec(spec);
 };
 
+// 销毁图表函数release - Function to destroy the chart
 const destroyChart = () => {
   vchart.release();
-  vchart = null;
 };
 </script>
