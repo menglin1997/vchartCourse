@@ -19,11 +19,17 @@ import preview06_Transform1 from "../components/preview/06-DataTypesAndDefinitio
 import preview06_Transform2 from "../components/preview/06-DataTypesAndDefinitions/transforms2-05.vue";
 import preview06_CaseStudy06 from "../components/preview/06-DataTypesAndDefinitions/caseStudy-06.vue";
 import preview07_Title01 from "../components/preview/07-TitleCoordinateAxisConfig/title-01.vue";
+import preview07_AxisLabelLayout02 from "../components/preview/07-TitleCoordinateAxisConfig/AxisLabelLayout-02.vue";
+import preview07_mulAxes03 from "../components/preview/07-TitleCoordinateAxisConfig/mulAxes-03.vue";
+import preview07_Axes04 from "../components/preview/07-TitleCoordinateAxisConfig/shaftBoundSeries-04.vue";
+import preview07_value0Alignment05 from "../components/preview/07-TitleCoordinateAxisConfig/value0Alignment-05.vue";
+import preview07_TickAlignment06 from "../components/preview/07-TitleCoordinateAxisConfig/tickAlignment-06.vue";
+
 import preview07_CaseStudy02 from "../components/preview/07-TitleCoordinateAxisConfig/caseStudy-02.vue";
 </script>
 
 <template>
   <main>
-    <course07 />
+    <preview07_AxisLabelLayout02 />
   </main>
 </template>

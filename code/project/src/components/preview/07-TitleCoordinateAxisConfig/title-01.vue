@@ -36,24 +36,32 @@ const spec = {
     },
   },
   // 01-Title标题组件基础
-  title: {
-    text: "A组和B组销售数据对比", // 主标题文本
-    subtext: "2024年第一季度", // 副标题文本
-    visible: true, // 是否显示标题
-  },
+  // title: {
+  //   text: "A组和B组销售数据对比", // 主标题文本
+  //   subtext: "2024年第一季度", // 副标题文本
+  //   visible: true, // 是否显示标题
+  // },
 
   // 02-Title标题布局与位置调整
-  // title: {
-  //   text: "销售数据对比",
-  //   orient: "top", // 标题位置：'top', 'bottom', 'left', 'right'
-  //   x: 100, // 标题左上角x坐标
-  //   y: 20, // 标题左上角y坐标
-  //   width: 400, // 标题宽度
-  //   height: 100, // 标题高度
-  //   align: "center", // 水平对齐方式：'left', 'center', 'right'
-  //   verticalAlign: "middle", // 垂直对齐方式：'top', 'middle', 'bottom'
-  //   innerPadding: 10, // 内边距
-  // },
+  title: {
+    subtext: "2024年第一季度", // 副标题文本
+    text: "销售数据对比",
+    visible: true, // 是否显示标题
+    orient: "top", // 标题位置：'top', 'bottom', 'left', 'right'
+    align: "center", // 水平对齐方式：'left', 'center', 'right'
+    // verticalAlign: "middle", // 垂直对齐方式：'top', 'middle', 'bottom'
+    // innerPadding: 10, // 内边距0
+    textStyle: {
+      fontSize: 20,
+      fill: 'red',
+      fontWeight: 'bold',
+      textAlign: 'center'
+    },
+    subtextStyle: {
+      fontSize: 20,
+      fill: 'blue',
+    }
+  },
 };
 onMounted(() => {
   const vchart = new VChart(spec, {
