@@ -13,10 +13,11 @@ const spec = {
     axes: [
         {
             orient: 'bottom',
+            // 是否开启轴数据采样，默认开启。轴采样开启之后，会对轴数据进行采样显示，防止轴数据的重叠。通过配置 label.minGap 可以控制轴标签之间的间距。
             sampling: false,
             label: {
-                autoRotate: true,
-                autoHide: true
+                autoRotate: true, // 自动旋转轴标签，默认关闭
+                autoHide: true // 自动隐藏轴标签，默认关闭
             }
         }
     ],

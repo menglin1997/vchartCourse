@@ -83,8 +83,8 @@ const spec = {
         }
     ],
     axes: [
-        { orient: 'left', seriesId: ['bar0'] },
-        { orient: 'right', seriesIndex: [1, 2] },
+        { orient: 'left', seriesId: ['bar0'] }, // 声明绑定系列
+        { orient: 'right', seriesIndex: [1, 2] }, // 声明绑定系列
         { orient: 'bottom', label: { visible: true }, type: 'band' }
     ],
     legends: {

@@ -56,14 +56,18 @@ const spec = {
         }
     ],
     axes: [
-        { orient: 'left', seriesIndex: [0], id: 'axisLeft', nice: false, zero: false },
+        { orient: 'left', seriesIndex: [0], id: 'axisLeft', nice: true, zero: false },
         {
             orient: 'right',
             seriesId: ['line'],
             grid: { visible: false },
             nice: false,
             zero: false,
-            sync: { axisId: 'axisLeft', zeroAlign: true }
+            sync: {
+                axisId: 'axisLeft', // 配置参照的轴id, 同步左侧轴的零对齐
+                zeroAlign: true, // 是否同步左侧轴的零对齐
+                // tickAlign: true // 是否同步左侧轴的刻度对齐
+            }
         },
         { orient: 'bottom', label: { visible: true }, type: 'band' }
     ]

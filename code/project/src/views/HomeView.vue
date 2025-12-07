@@ -25,11 +25,10 @@ import preview07_Axes04 from "../components/preview/07-TitleCoordinateAxisConfig
 import preview07_value0Alignment05 from "../components/preview/07-TitleCoordinateAxisConfig/value0Alignment-05.vue";
 import preview07_TickAlignment06 from "../components/preview/07-TitleCoordinateAxisConfig/tickAlignment-06.vue";
 
-import preview07_CaseStudy02 from "../components/preview/07-TitleCoordinateAxisConfig/caseStudy-02.vue";
 </script>
 
 <template>
   <main>
-    <preview07_AxisLabelLayout02 />
+    <preview07_value0Alignment05 />
   </main>
 </template>
