@@ -24,11 +24,12 @@ import preview07_mulAxes03 from "../components/preview/07-TitleCoordinateAxisCon
 import preview07_Axes04 from "../components/preview/07-TitleCoordinateAxisConfig/shaftBoundSeries-04.vue";
 import preview07_value0Alignment05 from "../components/preview/07-TitleCoordinateAxisConfig/value0Alignment-05.vue";
 import preview07_TickAlignment06 from "../components/preview/07-TitleCoordinateAxisConfig/tickAlignment-06.vue";
+import preview08_CaseStudy08 from "../components/preview/08-TitleCoordinateAxisConfigDemo/caseStudy-01.vue";
 
 </script>
 
 <template>
   <main>
-    <preview07_value0Alignment05 />
+    <course08 />
   </main>
 </template>

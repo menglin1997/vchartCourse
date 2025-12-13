@@ -15,62 +15,33 @@
 import { default as VChart } from "@visactor/vchart";
 import { onMounted } from "vue";
 // https://visactor.com/vchart/option/lineChart-axes-linear#background.style
-const axisConfig = {
-  hover: true, // 开启 hover 交互
-  select: true, // 开启 select 交互
+const axesConfig = {
+  hover: true,
+  select: true,
   background: {
     visible: true,
-    style: {
-      fillOpacity: 1
-    },
     state: {
-      // hover时，改变背景颜色为红色
       hover: {
-        fillOpacity: 0.65,
-        fill: 'red',
-        cursor: 'pointer'
+        fill: 'red'
       },
-      // selected时，改变背景颜色为蓝色
       selected: {
-        fillOpacity: 0.65,
-        fill: 'blue',
-        cursor: 'pointer'
+        fill: 'blue'
       }
     }
   },
   label: {
-    style: {
-      pickable: false // 为了不影响背景的拾取，先把 label 的拾取关闭，即不响应事件
-    },
     state: {
-      // hover时，改变字体颜色为黑色
-      // hover_reverse: {
-      //   fill: '#000'
-      // },
-      // selected时，改变字体颜色为白色
-      // selected_reverse: {
-      //   fill: '#fff'
-      // }
+      hover_reverse: {
+        fill: 'black'
+      },
+      selected_reverse: {
+        fill: '#fff'
+      }
     }
   }
-};
-
+}
 const spec = {
   type: 'line',
-  // title: {
-  //   text: '月度销售额趋势',
-  //   subtext: '2024年第一季度',
-  //   textStyle: {
-  //     fontSize: 18,
-  //     fontWeight: 'bold',
-  //     fill: '#333'
-  //   },
-  //   subtextStyle: {
-  //     fontSize: 14,
-  //     fill: '#666'
-  //   },
-  //   align: 'center'
-  // },
   data: [
     {
       id: 'area',
@@ -93,7 +64,28 @@ const spec = {
   xField: 'month',
   yField: 'value',
   seriesField: 'type',
-  // axes: [ ]
+  title: {
+    text: "月度销售额趋势",
+    align: 'center',
+    subtext: "2024年第一季度",
+    textStyle: {
+      fontSize: 18
+    },
+    subTextStyle: {
+      fontSize: 14,
+      fill: '#666'
+    }
+  },
+  axes: [
+    {
+      orient: "left",
+      ...axesConfig
+    },
+    {
+      orient: "bottom",
+      ...axesConfig
+    }
+  ]
 };
 onMounted(() => {
   const vchart = new VChart(spec, {
