@@ -25,11 +25,16 @@ import preview07_Axes04 from "../components/preview/07-TitleCoordinateAxisConfig
 import preview07_value0Alignment05 from "../components/preview/07-TitleCoordinateAxisConfig/value0Alignment-05.vue";
 import preview07_TickAlignment06 from "../components/preview/07-TitleCoordinateAxisConfig/tickAlignment-06.vue";
 import preview08_CaseStudy08 from "../components/preview/08-TitleCoordinateAxisConfigDemo/caseStudy-01.vue";
-
+import preview09_Series01 from "../components/preview/09-Series/label-01.vue";
+import preview09_Series02 from "../components/preview/09-Series/point-02.vue";
+import preview09_Series03 from "../components/preview/09-Series/pointScale-03.vue";
+import preview09_Series04 from "../components/preview/09-Series/line-04.vue";
+import preview09_Series05 from "../components/preview/09-Series/seriesCommon-06.vue";
+import preview09_Series06 from "../components/preview/09-Series/seriesCommon-06.vue";
 </script>
 
 <template>
   <main>
-    <course08 />
+    <preview09_Series06 />
   </main>
 </template>
