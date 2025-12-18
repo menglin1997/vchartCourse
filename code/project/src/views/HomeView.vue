@@ -31,10 +31,16 @@ import preview09_Series03 from "../components/preview/09-Series/pointScale-03.vu
 import preview09_Series04 from "../components/preview/09-Series/line-04.vue";
 import preview09_Series05 from "../components/preview/09-Series/seriesCommon-06.vue";
 import preview09_Series06 from "../components/preview/09-Series/seriesCommon-06.vue";
+
+import preview10_Tooltip01 from "../components/preview/10-Tooltip/tooltip-01.vue";
+import preview10_Tooltip02 from "../components/preview/10-Tooltip/tooltip-02.vue";
+
+
+
 </script>
 
 <template>
   <main>
-    <preview09_Series06 />
+    <preview10_Tooltip02 />
   </main>
 </template>
