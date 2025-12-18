@@ -58,36 +58,36 @@ const spec = {
     //   fill: 'blue' // 1-数据点默认颜色
     // },
     // 2-函数式配置数据点颜色
-    // style: {
-    //   fill: datum => {
-    //     if (datum.value >= 120) {
-    //       return 'red';
-    //     }
-    //     return 'blue';
-    //   }
-    // },
+    style: {
+      fill: datum => {
+        if (datum.value >= 120) {
+          return 'red';
+        }
+        return 'blue';
+      }
+    },
 
     // 3-自定义状态
-    // state: {
-    //   custom: { // 自定义状态
-    //     filter: data => {
-    //       return data.value >= 120;
-    //     },
-    //     style: {
-    //       fill: 'red'
-    //     }
-    //   },
-    //   hover: {
-    //     style: {
-    //       fill: 'red' // 数据点悬浮状态颜色
-    //     }
-    //   },
-    //   selected: {
-    //     style: {
-    //       size: 10 // 数据点选中状态大小
-    //     }
-    //   }
-    // }
+    state: {
+      custom: { // 自定义状态
+        filter: data => {
+          return data.value >= 120;
+        },
+        style: {
+          fill: 'red'
+        }
+      },
+      hover: {
+        style: {
+          fill: 'red' // 数据点悬浮状态颜色
+        }
+      },
+      selected: {
+        style: {
+          size: 10 // 数据点选中状态大小
+        }
+      }
+    }
   }
 };
 onMounted(() => {

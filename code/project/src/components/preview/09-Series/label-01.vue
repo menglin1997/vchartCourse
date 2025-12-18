@@ -46,11 +46,16 @@ const spec = {
   seriesField: "type",
   label: {
     visible: true, // 显示数据标签
-    offset: 2, // 数据标签与数据点的偏移量
-    style: {
-      fill: "#333", // 数据标签文本颜色
-      fontSize: "14", // 数据标签文本字体大小
-      fontWeight: "bold", // 数据标签文本字体粗细
+    offset: 12, // 数据标签与数据点的偏移量
+    position: 'top',
+    // style: {
+    //   fill: "#333", // 数据标签文本颜色
+    //   // fontSize: "14", // 数据标签文本字体大小
+    //   fontWeight: "bold", // 数据标签文本字体粗细
+    // },
+
+    "style":{
+      "text": (datum) =>  datum.value.toLocaleString()+'万元'
     },
   },
 };
@@ -61,3 +66,9 @@ onMounted(() => {
   vchart.renderSync();
 });
 </script>
+<style scoped>
+#chart {
+  width: 600px;
+  height: 400px;
+}
+</style>

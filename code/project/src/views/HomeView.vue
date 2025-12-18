@@ -26,15 +26,21 @@ import preview07_value0Alignment05 from "../components/preview/07-TitleCoordinat
 import preview07_TickAlignment06 from "../components/preview/07-TitleCoordinateAxisConfig/tickAlignment-06.vue";
 import preview08_CaseStudy08 from "../components/preview/08-TitleCoordinateAxisConfigDemo/caseStudy-01.vue";
 import preview09_Series01 from "../components/preview/09-Series/label-01.vue";
-import preview09_Series02 from "../components/preview/09-Series/point-02.vue";
-import preview09_Series03 from "../components/preview/09-Series/pointScale-03.vue";
-import preview09_Series04 from "../components/preview/09-Series/line-04.vue";
-import preview09_Series05 from "../components/preview/09-Series/seriesCommon-06.vue";
-import preview09_Series06 from "../components/preview/09-Series/seriesCommon-06.vue";
+import preview09_Series02 from "../components/preview/09-Series/label-02.vue";
+import preview09_Series03 from "../components/preview/09-Series/point-03.vue";
+
+import preview09_Series04 from "../components/preview/09-Series/pointScale-04.vue";
+
+
+import preview09_Series05 from "../components/preview/09-Series/line-05.vue";
+import preview09_Series06 from "../components/preview/09-Series/seriesDefaut-06.vue";
+import preview09_Series07 from "../components/preview/09-Series/seriesCommon-07.vue";
+
+
 </script>
 
 <template>
   <main>
-    <preview09_Series06 />
+    <preview09_Series07 />
   </main>
 </template>

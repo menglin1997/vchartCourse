@@ -37,16 +37,16 @@ const spec = {
       dataId: 'data1',
       seriesField: 'type',
       point: {
-        // style: {
-        //   size: {
-        //     field: 'y',
-        //     scale: 'sizeScale' // 大小映射到 sizeScale 比例尺
-        //   },
+        style: {
+          size: {
+            field: 'y',
+            scale: 'sizeScale' // 大小映射到 sizeScale 比例尺
+          },
         //   shape: {
         //     field: 'type',
         //     scale: 'shapeScale' // 形状映射到 shapeScale 比例尺
         //   }
-        // }
+        }
       }
     },
     {
@@ -56,16 +56,16 @@ const spec = {
       dataId: 'data2',
       seriesField: 'group',
       point: {
-        // style: {
-        //   size: {
-        //     field: 'y',
-        //     scale: 'sizeScale' // 大小映射到 sizeScale 比例尺
-        //   },
-        //   shape: {
-        //     field: 'group',
-        //     scale: 'shapeScale' // 形状映射到 shapeScale 比例尺
-        //   }
-        // }
+        style: {
+          size: {
+            field: 'y',
+            scale: 'sizeScale' // 大小映射到 sizeScale 比例尺
+          },
+          shape: {
+            field: 'group',
+            scale: 'shapeScale' // 形状映射到 shapeScale 比例尺
+          }
+        }
       }
     }
   ],
