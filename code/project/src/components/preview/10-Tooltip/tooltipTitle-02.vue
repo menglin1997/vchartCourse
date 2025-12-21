@@ -1,4 +1,5 @@
 <template>
+  <h3>标题格式化</h3>
   <div id="chart"></div>
 </template>
 <script lang="ts" setup>
@@ -44,18 +45,10 @@ const spec = {
   yField: "value",
   seriesField: "type",
   tooltip: {
-    // 配置 mark 图元的内容
-    mark: {
-      content: {
-        key: '数值',
-        value: datum => datum.value
-      }
-    },
-    // 配置 dimension 维度项的内容
+    // 配置 dimension 维度项的标题内容
     dimension: {
-      content: {
-        key: datum => datum.type,
-        value: datum => datum.value
+      title: {
+        value: data => data.month+"月"
       }
     },
   }

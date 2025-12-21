@@ -1,5 +1,5 @@
 <template>
-  <h1>样式配置</h1>
+  <h3>内容格式化</h3>
   <div id="chart"></div>
 </template>
 <script lang="ts" setup>
@@ -45,25 +45,13 @@ const spec = {
   yField: "value",
   seriesField: "type",
   tooltip: {
-    style: {
-      panel: {
-        /** 背景色 */
-        backgroundColor: 'rgba(24,144,255, 0.1)',
-        /** tooltip边框 */
-        border: {
-          color: '#6690F2',
-          width: 2,
-          /** 圆角 */
-          radius: 4
-        },
-        /** tooltip阴影 */
-        shadow: {
-          blur: 10,
-          spread: 2,
-          color: '#6690F2'
-        }
+     // 配置 dimension 维度项的内容
+    dimension: {
+      content: {
+        key: datum => datum.type,
+        value: datum => datum.value+"元"
       }
-    }
+    },
   }
 
 };

@@ -36,11 +36,17 @@ import preview09_Series05 from "../components/preview/09-Series/line-05.vue";
 import preview09_Series06 from "../components/preview/09-Series/seriesDefaut-06.vue";
 import preview09_Series07 from "../components/preview/09-Series/seriesCommon-07.vue";
 
+import preview10_tooltip01 from "../components/preview/10-Tooltip/tooltip-01.vue";
+import preview10_tooltip02 from "../components/preview/10-Tooltip/tooltipTitle-02.vue";
+import preview10_tooltip03 from "../components/preview/10-Tooltip/tooltipContent-03.vue";
+import preview10_tooltip04 from "../components/preview/10-Tooltip/tooltipHandler-04.vue";
+
+
 
 </script>
 
 <template>
   <main>
-    <preview09_Series07 />
+    <preview10_tooltip04 />
   </main>
 </template>
