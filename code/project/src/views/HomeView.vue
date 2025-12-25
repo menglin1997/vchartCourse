@@ -41,12 +41,16 @@ import preview10_tooltip02 from "../components/preview/10-Tooltip/tooltipTitle-0
 import preview10_tooltip03 from "../components/preview/10-Tooltip/tooltipContent-03.vue";
 import preview10_tooltip04 from "../components/preview/10-Tooltip/tooltipHandler-04.vue";
 
+import preview11_legend01 from "../components/preview/11-Legend/customUi-01.vue";
+import preview11_legend02 from "../components/preview/11-Legend/updateState-02.vue";
+import preview11_legend03 from "../components/preview/11-Legend/customData-03.vue";
+
 
 
 </script>
 
 <template>
   <main>
-    <preview10_tooltip04 />
+    <preview11_legend03 />
   </main>
 </template>
