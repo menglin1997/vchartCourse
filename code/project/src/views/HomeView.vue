@@ -7,6 +7,7 @@ import course04 from "../components/course/course-04.vue";
 import course05 from "../components/course/course-05.vue";
 import course06 from "../components/course/course-06.vue";
 import course08 from "../components/course/course-08.vue";
+import course10 from "../components/course/10-tooltip/tooltipHandler.vue";
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -51,6 +52,6 @@ import preview11_legend03 from "../components/preview/11-Legend/customData-03.vu
 
 <template>
   <main>
-    <preview11_legend03 />
+    <course10 />
   </main>
 </template>

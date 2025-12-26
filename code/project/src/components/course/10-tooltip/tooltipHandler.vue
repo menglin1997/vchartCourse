@@ -1,6 +1,10 @@
 <template>
-  <h3>内容格式化</h3>
-  <div id="chart"></div>
+  <h3>自定义tooltip</h3>
+  <div id="chart">
+    <div id="tooltip">tooltip</div>
+  </div>
+    
+
 </template>
 <script lang="ts" setup>
 import { default as VChart } from "@visactor/vchart";
@@ -45,27 +49,49 @@ const spec = {
   yField: "value",
   seriesField: "type",
   tooltip: {
-     // 配置 dimension 维度项的内容
+    // 配置 dimension 维度项的内容
     dimension: {
       content: {
-        key: datum => datum.type,
-        value: datum => datum.value+"元",
-        shape: "rect", // 数据项图形
-      }
+        key: (datum) => datum.type,
+        value: (datum) => datum.value,
+      },
     },
-  }
-
+  },
 };
 onMounted(() => {
   const vchart = new VChart(spec, {
     dom: "chart",
   });
+
+  vchart.setTooltipHandler({
+    showTooltip: (activeType, data, params) => {
+      console.log(activeType, data, params, "activeType, data, params");
+      if (params.changePositionOnly) {
+        return;
+      }
+      const tooltip = document.getElementById("tooltip");
+      tooltip.style.display = "block";
+      tooltip.style.top = params.event.y + "px";
+      tooltip.style.left = params.event.x+20 + "px";
+    },
+    hideTooltip: () => {
+      const tooltip = document.getElementById("tooltip");
+      tooltip.style.display = "none";
+    },
+    release:()=>{
+    }
+  })
   vchart.renderSync();
 });
 </script>
 <style>
-  #chart {
-    width: 600px;
-    height: 400px;
-  }
+#chart {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+#tooltip {
+  position: absolute;
+  display: 'none',
+}
 </style>
