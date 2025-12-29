@@ -46,12 +46,17 @@ import preview11_legend01 from "../components/preview/11-Legend/customUi-01.vue"
 import preview11_legend02 from "../components/preview/11-Legend/updateState-02.vue";
 import preview11_legend03 from "../components/preview/11-Legend/customData-03.vue";
 
+import preview12_crosshair01 from "../components/preview/12-CrosshairAndIndicator/rightAngle-01.vue";
+import preview12_crosshair02 from "../components/preview/12-CrosshairAndIndicator/polarCoordinates-02.vue";
+import preview12_crosshair03 from "../components/preview/12-CrosshairAndIndicator/region-03.vue";
+import preview12_indicator04 from "../components/preview/12-CrosshairAndIndicator/indicator-04.vue";
+
 
 
 </script>
 
 <template>
   <main>
-    <preview11_legend03 />
+    <preview12_indicator04 />
   </main>
 </template>

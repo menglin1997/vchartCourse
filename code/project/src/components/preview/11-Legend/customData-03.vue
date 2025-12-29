@@ -36,7 +36,7 @@ const spec = {
     orient: "right",
     data: (items) => {
       return items.map((item) => {
-        item.value = map[item.label]+"666";
+        item.value = map[item.label]+'';
         return item;
       });
     },
