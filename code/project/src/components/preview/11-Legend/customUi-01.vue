@@ -53,19 +53,15 @@ onMounted(() => {
   });
   vchart.renderSync();
   legendSelected = vchart.getLegendSelectedDataByIndex();
+  console.log(legendSelected,'legendSelected')
 });
 const hideRoleA = () => {
   if (!vchart) return;
-
-  vchart.setLegendSelectedDataByIndex(
-    0,
-    legendSelected.filter((val) => val !== "Role A")
-  );
+  vchart.setLegendSelectedDataByIndex(0, legendSelected.filter((val) => val !== "Role A"));
 };
 
 const showRoleA = () => {
   if (!vchart) return;
-
   vchart.setLegendSelectedDataByIndex(0, legendSelected);
 };
 </script>

@@ -52,6 +52,6 @@ import preview11_legend03 from "../components/preview/11-Legend/customData-03.vu
 
 <template>
   <main>
-    <course10 />
+    <preview11_legend03 />
   </main>
 </template>
