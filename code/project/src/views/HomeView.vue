@@ -10,6 +10,10 @@ import course08 from "../components/course/course-08.vue";
 import course10 from "../components/course/10-tooltip/tooltipHandler.vue";
 import course13_dataZoom01 from "../components/course/13-dataZoomAndScrollbar/dataZoom-01.vue";
 import course13_scrollbar02 from "../components/course/13-dataZoomAndScrollbar/scrollbar-02.vue";
+import course14_player01 from "../components/course/14-player/discrete-01.vue";
+import course14_player02 from "../components/course/14-player/continuous-02.vue";
+
+
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -55,10 +59,13 @@ import preview12_indicator04 from "../components/preview/12-CrosshairAndIndicato
 
 import preview13_dataZoom01 from "../components/preview/13-DataZoomAndScrollbar/dataZoom-01.vue";
 import preview13_scrollbar02 from "../components/preview/13-DataZoomAndScrollbar/scrollbar-02.vue";
+
+import preview14_player01 from "../components/preview/14-player/discrete-01.vue";
+import preview14_player02 from "../components/preview/14-player/continuous-02.vue";
 </script>
 
 <template>
   <main>
-    <course13_scrollbar02 />
+    <course14_player01 />
   </main>
 </template>
