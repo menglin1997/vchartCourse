@@ -8,6 +8,8 @@ import course05 from "../components/course/course-05.vue";
 import course06 from "../components/course/course-06.vue";
 import course08 from "../components/course/course-08.vue";
 import course10 from "../components/course/10-tooltip/tooltipHandler.vue";
+import course13_dataZoom01 from "../components/course/13-dataZoomAndScrollbar/dataZoom-01.vue";
+import course13_scrollbar02 from "../components/course/13-dataZoomAndScrollbar/scrollbar-02.vue";
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -51,12 +53,12 @@ import preview12_crosshair02 from "../components/preview/12-CrosshairAndIndicato
 import preview12_crosshair03 from "../components/preview/12-CrosshairAndIndicator/region-03.vue";
 import preview12_indicator04 from "../components/preview/12-CrosshairAndIndicator/indicator-04.vue";
 
-
-
+import preview13_dataZoom01 from "../components/preview/13-DataZoomAndScrollbar/dataZoom-01.vue";
+import preview13_scrollbar02 from "../components/preview/13-DataZoomAndScrollbar/scrollbar-02.vue";
 </script>
 
 <template>
   <main>
-    <preview12_indicator04 />
+    <course13_scrollbar02 />
   </main>
 </template>
