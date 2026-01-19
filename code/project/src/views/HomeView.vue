@@ -12,6 +12,7 @@ import course13_dataZoom01 from "../components/course/13-dataZoomAndScrollbar/da
 import course13_scrollbar02 from "../components/course/13-dataZoomAndScrollbar/scrollbar-02.vue";
 import course14_player01 from "../components/course/14-player/discrete-01.vue";
 import course14_player02 from "../components/course/14-player/continuous-02.vue";
+import course15_brush01 from "../components/course/15-Brush/brush.vue";
 
 
 
@@ -62,10 +63,12 @@ import preview13_scrollbar02 from "../components/preview/13-DataZoomAndScrollbar
 
 import preview14_player01 from "../components/preview/14-player/discrete-01.vue";
 import preview14_player02 from "../components/preview/14-player/continuous-02.vue";
+
+import preview15_brush from "../components/preview/15-Brush/brush.vue";
 </script>
 
 <template>
   <main>
-    <course14_player01 />
+    <course15_brush01 />
   </main>
 </template>
