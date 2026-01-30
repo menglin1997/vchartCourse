@@ -65,10 +65,15 @@ import preview14_player01 from "../components/preview/14-player/discrete-01.vue"
 import preview14_player02 from "../components/preview/14-player/continuous-02.vue";
 
 import preview15_brush from "../components/preview/15-Brush/brush.vue";
+
+import preview17_lineOrAreaBase01 from "../components/preview/17-LineAndArea/lineOrAreaBase-01.vue";
+
+import preview18_line01 from "../components/preview/18-LineAndAreaAdvanced/line-01.vue";
+import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-02.vue";
 </script>
 
 <template>
   <main>
-    <course15_brush01 />
+    <preview18_line01 />
   </main>
 </template>
