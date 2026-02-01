@@ -13,6 +13,8 @@ import course13_scrollbar02 from "../components/course/13-dataZoomAndScrollbar/s
 import course14_player01 from "../components/course/14-player/discrete-01.vue";
 import course14_player02 from "../components/course/14-player/continuous-02.vue";
 import course15_brush01 from "../components/course/15-Brush/brush.vue";
+import course16_markPoint01 from "../components/course/16-Marker/markPoint-01.vue";
+import course16_markLine02 from "../components/course/16-Marker/markLine-02.vue";
 
 
 
@@ -65,10 +67,13 @@ import preview14_player01 from "../components/preview/14-player/discrete-01.vue"
 import preview14_player02 from "../components/preview/14-player/continuous-02.vue";
 
 import preview15_brush from "../components/preview/15-Brush/brush.vue";
+
+import preview16_marker01 from "../components/preview/16-Marker/markPoint-01.vue";
+import preview16_marker02 from "../components/preview/16-Marker/markLine-02.vue";
 </script>
 
 <template>
   <main>
-    <course15_brush01 />
+    <course16_markLine02 />
   </main>
 </template>

@@ -1,0 +1,213 @@
+<template>
+  <div id="chart"></div>
+</template>
+<script lang="ts" setup>
+import { default as VChart } from "@visactor/vchart";
+import { onMounted } from "vue";
+
+const spec = {
+  type: 'line',
+  data: [
+    {
+      id: 'test1',
+      values: [
+        {
+          medalType: '1',
+          count: 17,
+          year: '1952',
+          type: 'test1'
+        },
+        {
+          medalType: '2',
+          count: 15,
+          year: '1956',
+          type: 'test1'
+        },
+        {
+          medalType: '1',
+          count: 17,
+          year: '1960',
+          type: 'test1'
+        },
+        {
+          medalType: '2',
+          count: 15,
+          year: '1965',
+          type: 'test1'
+        }
+      ]
+    },
+    {
+      id: 'test2',
+      values: [
+        {
+          medalType: 'Silver Medals',
+          count: 19,
+          year: '1952'
+        },
+        {
+          medalType: 'Silver Medals',
+          count: 29,
+          year: '2012'
+        }
+      ]
+    },
+    {
+      id: 'test3',
+      values: [
+        {
+          medalType: 'Silver Medals1',
+          count: 9,
+          year: '1952'
+        },
+        {
+          medalType: 'Silver Medals2',
+          count: 25,
+          year: '2012'
+        }
+      ]
+    }
+  ],
+  series: [
+    {
+      id: 'test1',
+      dataId: 'test1',
+      type: 'line',
+      xField: 'year',
+      yField: 'count',
+      seriesField: 'type'
+    },
+    {
+      id: '2',
+      dataId: 'test2',
+      type: 'line',
+      xField: 'year',
+      yField: 'count'
+    },
+    {
+      id: '3',
+      dataId: 'test3',
+      type: 'line',
+      xField: 'year',
+      yField: 'count'
+    }
+  ],
+  markLine: [
+    {
+      // 'sum': 总和
+      // 'average': 均值
+      // 'min': 最小值
+      // 'max': 最大值
+      // 'variance': 方差
+      // 'standardDeviation': 标准差
+      // 'median': 中位数
+      y: 'min', // 均值
+      relativeSeriesIndex: 0, // 被标注数据关联的 series 索引。
+      label: {
+        visible: true,
+        position: 'insideEndTop',
+        formatMethod: datum => {
+          return datum?.[0]?.y;
+        },
+        style: (datum, context) => {
+          return {
+            fill: context.relativeSeries.getMarkAttributeContext().seriesColor()
+          };
+        },
+        labelBackground: {
+          visible: false
+        }
+      },
+      line: {
+        style: (datum, context) => {
+          return {
+            stroke: context.relativeSeries.getMarkAttributeContext().seriesColor()
+          };
+        }
+      },
+      endSymbol: {
+        style: (datum, context) => {
+          return {
+            fill: context.relativeSeries.getMarkAttributeContext().seriesColor()
+          };
+        }
+      }
+    },
+  ],
+  categoryField: '',
+  legends: [
+    {
+      visible: true,
+      position: 'middle',
+      orient: 'bottom',
+      data: (items, scale, context) => {
+        return items.map((item, index) => {
+          if (context._chart.getComponentsByType('markLine')[index]?._markerData?.latestData?.[0]?.y) {
+            item.value = '均值:' + context._chart.getComponentsByType('markLine')[index]._markerData.latestData[0].y;
+          }
+          return item;
+        });
+      },
+      item: {
+        width: '15%',
+        value: {
+          alignRight: true,
+          style: {
+            fill: '#333',
+            fillOpacity: 0.8,
+            fontSize: 10
+          },
+          state: {
+            unselected: {
+              fill: '#d8d8d8'
+            }
+          }
+        }
+      }
+    }
+  ],
+  crosshair: {
+    xField: {
+      visible: true,
+      line: {
+        type: 'line',
+        style: {
+          lineWidth: 1,
+          opacity: 1,
+          stroke: '#000',
+          lineDash: [2, 2]
+        }
+      },
+      bindingAxesIndex: [1]
+    },
+    yField: {
+      visible: true,
+      bindingAxesIndex: [0, 2],
+      defaultSelect: {
+        axisIndex: 2,
+        datum: 40
+      },
+      line: {
+        style: {
+          lineWidth: 1,
+          opacity: 1,
+          stroke: '#000',
+          lineDash: [2, 2]
+        }
+      }
+    }
+  }
+};
+onMounted(() => {
+  const vchart = new VChart(spec, {
+    dom: "chart",
+  });
+  vchart.renderSync();
+});
+</script>
+<style scoped>
+#chart {
+  width: 600px;
+  height: 400px;
+}
+</style>
