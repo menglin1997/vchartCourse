@@ -15,6 +15,7 @@ import course14_player02 from "../components/course/14-player/continuous-02.vue"
 import course15_brush01 from "../components/course/15-Brush/brush.vue";
 import course16_markPoint01 from "../components/course/16-Marker/markPoint-01.vue";
 import course16_markLine02 from "../components/course/16-Marker/markLine-02.vue";
+import course17_lineOrAreaBase01 from "../components/course/17-LineAndArea/lineOrAreaBase-01.vue";
 
 
 
@@ -78,6 +79,6 @@ import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-
 
 <template>
   <main>
-    <preview18_line01 />
+    <course17_lineOrAreaBase01 />
   </main>
 </template>
