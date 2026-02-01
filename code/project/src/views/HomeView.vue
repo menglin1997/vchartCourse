@@ -70,10 +70,14 @@ import preview15_brush from "../components/preview/15-Brush/brush.vue";
 
 import preview16_marker01 from "../components/preview/16-Marker/markPoint-01.vue";
 import preview16_marker02 from "../components/preview/16-Marker/markLine-02.vue";
+import preview17_lineOrAreaBase01 from "../components/preview/17-LineAndArea/lineOrAreaBase-01.vue";
+
+import preview18_line01 from "../components/preview/18-LineAndAreaAdvanced/line-01.vue";
+import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-02.vue";
 </script>
 
 <template>
   <main>
-    <course16_markLine02 />
+    <preview18_line01 />
   </main>
 </template>
