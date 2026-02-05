@@ -75,10 +75,13 @@ import preview17_lineOrAreaBase01 from "../components/preview/17-LineAndArea/lin
 
 import preview18_line01 from "../components/preview/18-LineAndAreaAdvanced/line-01.vue";
 import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-02.vue";
+
+import preview19_bar01 from "../components/preview/19-Bar/base01.vue";
+import preview19_bar02 from "../components/preview/19-Bar/base02.vue";
 </script>
 
 <template>
   <main>
-    <course17_lineOrAreaBase01 />
+    <preview19_bar02 />
   </main>
 </template>
