@@ -78,10 +78,13 @@ import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-
 
 import preview19_bar01 from "../components/preview/19-Bar/base01.vue";
 import preview19_bar02 from "../components/preview/19-Bar/base02.vue";
+
+import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
+
 </script>
 
 <template>
   <main>
-    <preview19_bar02 />
+    <preview20_bar01 />
   </main>
 </template>
