@@ -19,8 +19,8 @@ const spec = {
   xField: 'city', //  映射X轴（时间/类别）
   yField: 'value', //   映射Y轴（数值）
   axes: [{ orient: 'bottom', type: 'band' }],
-  tooltip: { visible: true },
-  // invalidType: 'break', // link 忽略该点保持连续  \break 在该数据点处断开 \zero 该点默认数值为 0 \ignore不处理
+  // tooltip: { visible: true },
+  invalidType: 'zero', // link 忽略该点保持连续  \break 在该数据点处断开 \zero 该点默认数值为 0 \ignore不处理
   // point: {
   //   style: {
   //     shape: 'triangle', // 形状：圆、方、三角等
@@ -28,30 +28,30 @@ const spec = {
   //     fill: '#FF6B6B'    // 颜色
   //   }
   // },
-  // // point: { visible: false }, // 隐藏标记点
-  // line: {
-  //   style: {
-  //     // stroke: { 
-  //     //   gradient: 'linear', // 线性渐变
-  //     //   stops: [
-  //     //     { offset: 0, color: '#FF6B6B' },
-  //     //     { offset: 1, color: '#4ECDC4' }
-  //     //   ]
-  //     // }
+  point: { visible: false }, // 隐藏标记点
+  line: {
+    style: {
+      // stroke: { 
+      //   gradient: 'linear', // 线性渐变
+      //   stops: [
+      //     { offset: 0, color: '#FF6B6B' },
+      //     { offset: 1, color: '#4ECDC4' }
+      //   ]
+      // }
 
-  //     stroke: { // 渐变色划分
-  //       gradient: 'linear',
-  //       stops: [
-  //         { offset: 0, color: 'green' },
-  //         { offset: 0.7, color: 'green' },
-  //         { offset: 0.7, color: 'red' },
-  //         { offset: 1, color: 'red' }
-  //       ]
-  //     },
-  //     // curveType: 'monotone' // 平滑曲线
-  //     curveType: 'step' // 或 'stepAfter'、'stepBefore'
-  //   }
-  // },
+      // stroke: { // 渐变色划分
+      //   gradient: 'linear',
+      //   stops: [
+      //     { offset: 0, color: 'green' },
+      //     { offset: 0.7, color: 'green' },
+      //     { offset: 0.7, color: 'red' },
+      //     { offset: 1, color: 'red' }
+      //   ]
+      // },
+      // curveType: 'monotone' // 平滑曲线
+      curveType: 'step' // 或 'stepAfter'、'stepBefore'
+    }
+  },
   // stroke: {
   //   gradient: 'linear',
   //   stops: [
