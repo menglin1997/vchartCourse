@@ -16,8 +16,9 @@ import course15_brush01 from "../components/course/15-Brush/brush.vue";
 import course16_markPoint01 from "../components/course/16-Marker/markPoint-01.vue";
 import course16_markLine02 from "../components/course/16-Marker/markLine-02.vue";
 import course17_lineOrAreaBase01 from "../components/course/17-LineAndArea/lineOrAreaBase-01.vue";
-
-
+import course18_lineAndAreaAdvanced01 from "../components/course/18-LineAndAreaAdvanced/line-01.vue";
+import course18_lineAndAreaAdvanced02 from "../components/course/18-LineAndAreaAdvanced/area-02.vue";
+import course18_lineAndAreaAdvanced03 from "../components/course/18-LineAndAreaAdvanced/practice-03.vue";
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -75,6 +76,7 @@ import preview17_lineOrAreaBase01 from "../components/preview/17-LineAndArea/lin
 
 import preview18_line01 from "../components/preview/18-LineAndAreaAdvanced/line-01.vue";
 import preview18_area02 from "../components/preview/18-LineAndAreaAdvanced/area-02.vue";
+import preview18_practice03 from "../components/preview/18-LineAndAreaAdvanced/practice-03.vue";
 
 import preview19_bar01 from "../components/preview/19-Bar/base01.vue";
 import preview19_bar02 from "../components/preview/19-Bar/base02.vue";
@@ -85,6 +87,6 @@ import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
 
 <template>
   <main>
-    <preview20_bar01 />
+    <course18_lineAndAreaAdvanced03 />
   </main>
 </template>
