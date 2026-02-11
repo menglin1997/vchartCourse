@@ -87,6 +87,6 @@ import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
 
 <template>
   <main>
-    <course18_lineAndAreaAdvanced03 />
+    <preview20_bar01 />
   </main>
 </template>
