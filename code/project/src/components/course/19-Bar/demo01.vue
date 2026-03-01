@@ -1,0 +1,209 @@
+<template>
+  <div>销售看板</div>
+  <div id="chart"></div>
+</template>
+<script lang="ts" setup>
+import { default as VChart } from "@visactor/vchart";
+import { onMounted } from "vue";
+// data: [
+//     {
+//       id: "barData",
+//       values: [
+//         {
+//           name: "Apple",
+//           value: 214480,
+//         },
+//         {
+//           name: "Google",
+//           value: 155506,
+//         },
+//         {
+//           name: "Amazon",
+//           value: 100764,
+//         },
+//         {
+//           name: "Microsoft",
+//           value: 92715,
+//         },
+//         {
+//           name: "Coca-Cola",
+//           value: 66341,
+//         },
+//         {
+//           name: "Samsung",
+//           value: 59890,
+//         },
+//         {
+//           name: "Toyota",
+//           value: 53404,
+//         },
+//         {
+//           name: "Mercedes-Benz",
+//           value: 48601,
+//         },
+//         {
+//           name: "Facebook",
+//           value: 45168,
+//         },
+//         {
+//           name: "McDonald's",
+//           value: 43417,
+//         },
+//         {
+//           name: "Intel",
+//           value: 43293,
+//         },
+//         {
+//           name: "IBM",
+//           value: 42972,
+//         },
+//         {
+//           name: "BMW",
+//           value: 41006,
+//         },
+//         {
+//           name: "Disney",
+//           value: 39874,
+//         },
+//         {
+//           name: "Cisco",
+//           value: 34575,
+//         },
+//         {
+//           name: "GE",
+//           value: 32757,
+//         },
+//         {
+//           name: "Nike",
+//           value: 30120,
+//         },
+//         {
+//           name: "Louis Vuitton",
+//           value: 28152,
+//         },
+//         {
+//           name: "Oracle",
+//           value: 26133,
+//         },
+//         {
+//           name: "Honda",
+//           value: 23682,
+//         },
+//       ],
+//     },
+//   ],
+const spec = {
+  // 四要素 类型-数据-x-y
+  type: "bar",
+  data: [
+    {
+      id: "barData",
+      values: [
+        {
+          name: "Apple",
+          value: 214480,
+        },
+        {
+          name: "Google",
+          value: 155506,
+        },
+        {
+          name: "Amazon",
+          value: 100764,
+        },
+        {
+          name: "Microsoft",
+          value: 92715,
+        },
+        {
+          name: "Coca-Cola",
+          value: 66341,
+        },
+        {
+          name: "Samsung",
+          value: 59890,
+        },
+        {
+          name: "Toyota",
+          value: 53404,
+        },
+        {
+          name: "Mercedes-Benz",
+          value: 48601,
+        },
+        {
+          name: "Facebook",
+          value: 45168,
+        },
+        {
+          name: "McDonald's",
+          value: 43417,
+        },
+        {
+          name: "Intel",
+          value: 43293,
+        },
+        {
+          name: "IBM",
+          value: 42972,
+        },
+        {
+          name: "BMW",
+          value: 41006,
+        },
+        {
+          name: "Disney",
+          value: 39874,
+        },
+        {
+          name: "Cisco",
+          value: 34575,
+        },
+        {
+          name: "GE",
+          value: 32757,
+        },
+        {
+          name: "Nike",
+          value: 30120,
+        },
+        {
+          name: "Louis Vuitton",
+          value: 28152,
+        },
+        {
+          name: "Oracle",
+          value: 26133,
+        },
+        {
+          name: "Honda",
+          value: 23682,
+        },
+      ],
+    },
+  ],
+  xField: "value",
+  yField: "name",
+  // 数据标签显示
+  label: {
+    visible: true,
+  },
+  direction: 'horizontal',
+  axes:[{
+    orient: "bottom",
+    visible: false,
+  }]
+};
+onMounted(() => {
+    const vchart = new VChart(spec, {
+      dom: "chart",
+    });
+    vchart.renderSync();
+});
+</script>
+<style scoped>
+#chart {
+  width: 600px;
+  height: 400px;
+}
+</style>

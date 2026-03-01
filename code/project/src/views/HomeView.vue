@@ -19,6 +19,8 @@ import course17_lineOrAreaBase01 from "../components/course/17-LineAndArea/lineO
 import course18_lineAndAreaAdvanced01 from "../components/course/18-LineAndAreaAdvanced/line-01.vue";
 import course18_lineAndAreaAdvanced02 from "../components/course/18-LineAndAreaAdvanced/area-02.vue";
 import course18_lineAndAreaAdvanced03 from "../components/course/18-LineAndAreaAdvanced/practice-03.vue";
+import course19_barBase01 from "../components/course/19-Bar/base01.vue";
+import course19_barDemo01 from "../components/course/19-Bar/demo01.vue";
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -80,6 +82,7 @@ import preview18_practice03 from "../components/preview/18-LineAndAreaAdvanced/p
 
 import preview19_bar01 from "../components/preview/19-Bar/base01.vue";
 import preview19_bar02 from "../components/preview/19-Bar/base02.vue";
+import preview19_demo1 from "../components/preview/19-Bar/demo1.vue";
 
 import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
 
@@ -87,6 +90,6 @@ import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
 
 <template>
   <main>
-    <preview20_bar01 />
+    <course19_barDemo01 />
   </main>
 </template>
