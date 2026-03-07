@@ -21,6 +21,11 @@ import course18_lineAndAreaAdvanced02 from "../components/course/18-LineAndAreaA
 import course18_lineAndAreaAdvanced03 from "../components/course/18-LineAndAreaAdvanced/practice-03.vue";
 import course19_barBase01 from "../components/course/19-Bar/base01.vue";
 import course19_barDemo01 from "../components/course/19-Bar/demo01.vue";
+import preview20_bar from "../components/course/20-BarAdvanced/base01.vue";
+import preview20_bar2 from "../components/course/20-BarAdvanced/base02.vue";
+import preview20_bar3 from "../components/course/20-BarAdvanced/base03.vue";
+
+
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -85,11 +90,12 @@ import preview19_bar02 from "../components/preview/19-Bar/base02.vue";
 import preview19_demo1 from "../components/preview/19-Bar/demo1.vue";
 
 import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
-
+import preview20_bar_stack_02 from "../components/preview/20-BarAdvanced/bar-stack-02.vue";
+import preview20_bar_stack_03 from "../components/preview/20-BarAdvanced/bar-stack-03.vue";
 </script>
 
 <template>
   <main>
-    <course19_barDemo01 />
+    <preview20_bar3 />
   </main>
 </template>

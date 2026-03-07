@@ -19,17 +19,15 @@ const spec = {
       ]
     }
   ],
-  xField: ['year', 'product'],  // 数组形式！
+  seriesField: 'product',
+  xField: 'year',
   yField: 'sales',
-  seriesField: 'product'    ,
-  legends: {
-    visible: true,
-    orient: 'top',
-    position: 'start',
-    padding: {
-      bottom: 10
-    }
-  }
+  stack: true,  // 关键配置！
+  // xField: 'year',
+  // yField: 'sales',
+  // seriesField: 'product',
+  // stack: true  // 关键配置！
+
 };
 	onMounted(() => {
 		const vchart = new VChart(spec, {
