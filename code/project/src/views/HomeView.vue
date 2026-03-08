@@ -24,6 +24,11 @@ import course19_barDemo01 from "../components/course/19-Bar/demo01.vue";
 import preview20_bar from "../components/course/20-BarAdvanced/base01.vue";
 import preview20_bar2 from "../components/course/20-BarAdvanced/base02.vue";
 import preview20_bar3 from "../components/course/20-BarAdvanced/base03.vue";
+import course21_pie01 from "../components/course/21-pie/pie-01.vue";
+import course21_pie02 from "../components/course/21-pie/pie-02.vue";
+import course21_pie03 from "../components/course/21-pie/pie-03.vue";
+import course21_pie04 from "../components/course/21-pie/pie-04.vue";
+import course21_pie05 from "../components/course/21-pie/pie-05.vue";
 
 
 
@@ -103,6 +108,6 @@ import preview21_pie06 from "../components/preview/21-pie/pie-test-06.vue";
 
 <template>
   <main>
-    <preview21_pie05 />
+    <course21_pie04 />
   </main>
 </template>

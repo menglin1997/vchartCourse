@@ -16,9 +16,12 @@ const spec = {
   }],
   categoryField: 'product',
   valueField: 'sales',
-  label: { visible: true },     // 显示标签
-  legends: { visible: true }    // 显示图例
+  label: { visible: true,
+    position: 'outside',      // 标签位置：outside/inside
 
+   },     // 显示标签
+  legends: { visible: true },    // 显示图例
+  innerRadius: 0.4,
 };
     onMounted(() => {
         const vchart = new VChart(spec, {
