@@ -92,10 +92,17 @@ import preview19_demo1 from "../components/preview/19-Bar/demo1.vue";
 import preview20_bar01 from "../components/preview/20-BarAdvanced/base01.vue";
 import preview20_bar_stack_02 from "../components/preview/20-BarAdvanced/bar-stack-02.vue";
 import preview20_bar_stack_03 from "../components/preview/20-BarAdvanced/bar-stack-03.vue";
+
+import preview21_pie01 from "../components/preview/21-pie/pie-01.vue";
+import preview21_pie02 from "../components/preview/21-pie/pie-02.vue";
+import preview21_pie03 from "../components/preview/21-pie/pie-label-03.vue";
+import preview21_pie04 from "../components/preview/21-pie/pie-legend-04.vue";
+import preview21_pie05 from "../components/preview/21-pie/pie-test-05.vue";
+import preview21_pie06 from "../components/preview/21-pie/pie-test-06.vue";
 </script>
 
 <template>
   <main>
-    <preview20_bar3 />
+    <preview21_pie05 />
   </main>
 </template>
