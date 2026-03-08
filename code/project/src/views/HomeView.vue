@@ -104,10 +104,13 @@ import preview21_pie03 from "../components/preview/21-pie/pie-label-03.vue";
 import preview21_pie04 from "../components/preview/21-pie/pie-legend-04.vue";
 import preview21_pie05 from "../components/preview/21-pie/pie-test-05.vue";
 import preview21_pie06 from "../components/preview/21-pie/pie-test-06.vue";
+
+import preview21_pieIndicator01 from "../components/preview/22-pieAdvanced/pieIndicator-01.vue";
+import preview21_pieIndicator02 from "../components/preview/22-pieAdvanced/pieIndicator-02.vue";
 </script>
 
 <template>
   <main>
-    <course21_pie04 />
+    <preview21_pieIndicator02 />
   </main>
 </template>
