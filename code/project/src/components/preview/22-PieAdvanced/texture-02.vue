@@ -10,9 +10,9 @@ const spec = {
   data: [
     {
       values: [
-        { product: "数码", sales: 20 },
-        { product: "日用品", sales: 50 },
-        { product: "食品", sales: 80 },
+        { product: "数码", sales: 20, texture: "bias-lr" },
+        { product: "日用品", sales: 50, texture: "horizontal-line" },
+        { product: "食品", sales: 80, texture: "diamond" },
       ],
     },
   ],
@@ -43,6 +43,24 @@ const spec = {
         },
       },
     ],
+  },
+  pie: {
+    style: {
+      cornerRadius: 5,
+      texture: (datum) => datum["texture"],
+    },
+    state: {
+      hover: {
+        outerRadius: 0.85,
+        stroke: "#000",
+        lineWidth: 1,
+      },
+      selected: {
+        outerRadius: 0.85,
+        stroke: "#000",
+        lineWidth: 1,
+      },
+    },
   },
 };
 onMounted(() => {
