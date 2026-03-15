@@ -32,6 +32,10 @@ import course21_pie05 from "../components/course/21-pie/pie-05.vue";
 
 import course22 from "../components/course/22-PieAdvanced/pie.vue";
 
+import course23Rose01 from "../components/course/23-Rose/rose01.vue";
+import course23Rose02 from "../components/course/23-Rose/rose02.vue";
+import course23Rose03 from "../components/course/23-Rose/rose03.vue";
+
 
 
 // 课前演示-Preview before the course
@@ -110,10 +114,14 @@ import preview21_pie06 from "../components/preview/21-pie/pie-test-06.vue";
 import preview21_pieIndicator01 from "../components/preview/22-pieAdvanced/pieIndicator-01.vue";
 import preview21_texture02 from "../components/preview/22-pieAdvanced/texture-02.vue";
 import preview21_practice03 from "../components/preview/22-pieAdvanced/practice-03.vue";
+
+import preview23_rose01 from "../components/preview/23-Rose/rose01.vue";
+import preview23_rose02 from "../components/preview/23-Rose/rose02.vue";
+import preview23_rose03 from "../components/preview/23-Rose/rose03.vue";
 </script>
 
 <template>
   <main>
-    <course22 />
+    <course23Rose03 />
   </main>
 </template>
