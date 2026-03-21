@@ -36,6 +36,10 @@ import course23Rose01 from "../components/course/23-Rose/rose01.vue";
 import course23Rose02 from "../components/course/23-Rose/rose02.vue";
 import course23Rose03 from "../components/course/23-Rose/rose03.vue";
 
+import course24_histogram01 from "../components/course/24-histogram/base01.vue";
+import course24_histogram02 from "../components/course/24-histogram/common02.vue";
+import course24_histogram03 from "../components/course/24-histogram/histogram03.vue";``
+
 
 
 // 课前演示-Preview before the course
@@ -118,10 +122,16 @@ import preview21_practice03 from "../components/preview/22-pieAdvanced/practice-
 import preview23_rose01 from "../components/preview/23-Rose/rose01.vue";
 import preview23_rose02 from "../components/preview/23-Rose/rose02.vue";
 import preview23_rose03 from "../components/preview/23-Rose/rose03.vue";
+
+import preview24_histogram01 from "../components/preview/24-histogram/base01.vue";
+import preview24_histogram02 from "../components/preview/24-histogram/common02.vue";
+import preview24_histogram03 from "../components/preview/24-histogram/histogram03.vue";
+import preview24_histogram04 from "../components/preview/24-histogram/histogram04.vue";
+
 </script>
 
 <template>
   <main>
-    <course23Rose03 />
+    <course24_histogram03 />
   </main>
 </template>
