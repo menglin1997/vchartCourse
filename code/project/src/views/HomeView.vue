@@ -38,7 +38,11 @@ import course23Rose03 from "../components/course/23-Rose/rose03.vue";
 
 import course24_histogram01 from "../components/course/24-histogram/base01.vue";
 import course24_histogram02 from "../components/course/24-histogram/common02.vue";
-import course24_histogram03 from "../components/course/24-histogram/histogram03.vue";``
+import course24_histogram03 from "../components/course/24-histogram/histogram03.vue";
+
+import course25_scatter01 from "../components/course/25-scatter/scatter01.vue";
+import course25_scatter02Style from "../components/course/25-scatter/scatter02Style.vue";
+import course25_scatter03Size from "../components/course/25-scatter/scatter03Size.vue";
 
 
 
@@ -128,10 +132,14 @@ import preview24_histogram02 from "../components/preview/24-histogram/common02.v
 import preview24_histogram03 from "../components/preview/24-histogram/histogram03.vue";
 import preview24_histogram04 from "../components/preview/24-histogram/histogram04.vue";
 
+import preview25_scatter01 from "../components/preview/25-scatter/base01.vue";
+import preview25_scatter02 from "../components/preview/25-scatter/scatter02Style.vue";
+import preview25_scatter03Size from "../components/preview/25-scatter/scatter03Size.vue";
+
 </script>
 
 <template>
   <main>
-    <course24_histogram03 />
+    <course25_scatter03Size />
   </main>
 </template>
