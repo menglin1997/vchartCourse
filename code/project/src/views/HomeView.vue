@@ -44,6 +44,8 @@ import course25_scatter01 from "../components/course/25-scatter/scatter01.vue";
 import course25_scatter02Style from "../components/course/25-scatter/scatter02Style.vue";
 import course25_scatter03Size from "../components/course/25-scatter/scatter03Size.vue";
 
+import course26_heatmap from "../components/course/26-heatmap/base01.vue";
+
 
 
 // 课前演示-Preview before the course
@@ -136,10 +138,13 @@ import preview25_scatter01 from "../components/preview/25-scatter/base01.vue";
 import preview25_scatter02 from "../components/preview/25-scatter/scatter02Style.vue";
 import preview25_scatter03Size from "../components/preview/25-scatter/scatter03Size.vue";
 
+import preview26_base01 from "../components/preview/26-heatmap/base01.vue";
+import preview27_base01 from "../components/preview/27-boxPlot/base01.vue";
+
 </script>
 
 <template>
   <main>
-    <course25_scatter03Size />
+    <course26_heatmap />
   </main>
 </template>
