@@ -139,12 +139,17 @@ import preview25_scatter02 from "../components/preview/25-scatter/scatter02Style
 import preview25_scatter03Size from "../components/preview/25-scatter/scatter03Size.vue";
 
 import preview26_base01 from "../components/preview/26-heatmap/base01.vue";
+
 import preview27_base01 from "../components/preview/27-boxPlot/base01.vue";
+import preview27_group02 from "../components/preview/27-boxPlot/group02.vue";
+import preview27_boxWidth03 from "../components/preview/27-boxPlot/boxWidth03.vue";
+import preview27_shaftShape04 from "../components/preview/27-boxPlot/shaftShape04.vue";
+
 
 </script>
 
 <template>
   <main>
-    <course26_heatmap />
+    <preview27_shaftShape04 />
   </main>
 </template>

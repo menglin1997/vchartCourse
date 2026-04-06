@@ -20,7 +20,16 @@
 		q1Field: 'q1',
 		medianField: 'median',
 		q3Field: 'q3',
-		maxField: 'max'
+		maxField: 'max',
+		boxPlot: {
+    style: {
+      // boxWidth: 50,
+      // shaftWidth: 30,
+      shaftShape: 'bar', // 'line' | 'bar'
+      // lineWidth: 2,
+      // shaftOpacity: 0.3
+    }
+  }
 	}
 
 	onMounted(() => {

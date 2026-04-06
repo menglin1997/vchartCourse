@@ -20,7 +20,12 @@
 		q1Field: 'q1',
 		medianField: 'median',
 		q3Field: 'q3',
-		maxField: 'max'
+		maxField: 'max',
+		boxPlot: {
+			style: {
+				boxWidth: 150 // 不指定则自适应宽度
+			}
+		}
 	}
 
 	onMounted(() => {
