@@ -46,6 +46,10 @@ import course25_scatter03Size from "../components/course/25-scatter/scatter03Siz
 
 import course26_heatmap from "../components/course/26-heatmap/base01.vue";
 
+import course27_base01 from "../components/course/27-boxPlot/base01.vue";
+import course27_boxWidth02 from "../components/course/27-boxPlot/boxWidth02.vue";
+import course27_group03 from "../components/course/27-boxPlot/group03.vue";
+
 
 
 // 课前演示-Preview before the course
@@ -154,6 +158,6 @@ import preview28_totalCustom03 from "../components/preview/28-waterfall/totalCus
 
 <template>
   <main>
-    <preview28_totalField02 />
+    <course27_group03 />
   </main>
 </template>
