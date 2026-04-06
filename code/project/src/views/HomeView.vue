@@ -50,6 +50,9 @@ import course27_base01 from "../components/course/27-boxPlot/base01.vue";
 import course27_boxWidth02 from "../components/course/27-boxPlot/boxWidth02.vue";
 import course27_group03 from "../components/course/27-boxPlot/group03.vue";
 
+import course28_base01 from "../components/course/28-waterfall/base01.vue";
+import course28_totalField02 from "../components/course/28-waterfall/totalField02.vue";
+import course28_totalCustom03 from "../components/course/28-waterfall/totalCustom03.vue";
 
 
 // 课前演示-Preview before the course
@@ -158,6 +161,6 @@ import preview28_totalCustom03 from "../components/preview/28-waterfall/totalCus
 
 <template>
   <main>
-    <course27_group03 />
+    <course28_totalCustom03 />
   </main>
 </template>
