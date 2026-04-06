@@ -144,12 +144,16 @@ import preview27_base01 from "../components/preview/27-boxPlot/base01.vue";
 import preview27_group02 from "../components/preview/27-boxPlot/group02.vue";
 import preview27_boxWidth03 from "../components/preview/27-boxPlot/boxWidth03.vue";
 import preview27_shaftShape04 from "../components/preview/27-boxPlot/shaftShape04.vue";
+import preview28_base01 from "../components/preview/28-waterfall/base01.vue";
+import preview28_totalField02 from "../components/preview/28-waterfall/totalField02.vue";
+import preview28_totalCustom03 from "../components/preview/28-waterfall/totalCustom03.vue";
+
 
 
 </script>
 
 <template>
   <main>
-    <preview27_shaftShape04 />
+    <preview28_totalField02 />
   </main>
 </template>
