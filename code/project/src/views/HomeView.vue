@@ -155,12 +155,16 @@ import preview28_base01 from "../components/preview/28-waterfall/base01.vue";
 import preview28_totalField02 from "../components/preview/28-waterfall/totalField02.vue";
 import preview28_totalCustom03 from "../components/preview/28-waterfall/totalCustom03.vue";
 
+import preview29_base01 from "../components/preview/29-funnel/base01.vue";
+import preview29_alignAndOrient from "../components/preview/29-funnel/aliginAndOrient02.vue";
+import preview29_style03 from "../components/preview/29-funnel/style03.vue";
+
 
 
 </script>
 
 <template>
   <main>
-    <course28_totalCustom03 />
+    <preview29_style03 />
   </main>
 </template>
