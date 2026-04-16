@@ -54,6 +54,9 @@ import course28_base01 from "../components/course/28-waterfall/base01.vue";
 import course28_totalField02 from "../components/course/28-waterfall/totalField02.vue";
 import course28_totalCustom03 from "../components/course/28-waterfall/totalCustom03.vue";
 
+import course29_funnel01 from "../components/course/29-funnel/base01.vue";
+
+
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -165,6 +168,6 @@ import preview29_style03 from "../components/preview/29-funnel/style03.vue";
 
 <template>
   <main>
-    <preview29_style03 />
+    <course29_funnel01 />
   </main>
 </template>
