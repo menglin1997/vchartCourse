@@ -61,6 +61,9 @@ import course30_sequence01 from "../components/course/30-sequence/base01.vue";
 import course31_rangeColumn01 from "../components/course/31-rangeColumnAndArea/base01.vue";
 import course31_rangeArea01 from "../components/course/31-rangeColumnAndArea/rangeArea.vue";
 
+import course32_base01 from "../components/course/32-wordCloud/base01.vue";
+
+
 
 // 课前演示-Preview before the course
 // import preview03 from '../components/preview/BasicConfig-03.vue'
@@ -174,6 +177,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course31_rangeArea01 />
+    <course32_base01 />
   </main>
 </template>

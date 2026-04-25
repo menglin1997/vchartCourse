@@ -695,30 +695,30 @@
   dependencies:
     undici-types "~6.21.0"
 
-"@visactor/vchart@2.0.12":
-  version "2.0.12"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vchart/-/vchart-2.0.12.tgz#16c3cc041e154b20e3e237d8800b9eef845c1dc7"
-  integrity sha512-eJc0/4AQtCAolV3sftu+THTbg2Yr6mucgMO5oZJy/+bPI4opsoTOFV+vazmVGx8KcawAPlSEk4/JeXqAsSeXGg==
+"@visactor/vchart@2.0.19":
+  version "2.0.19"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vchart/-/vchart-2.0.19.tgz#02060a6b49eaa20d1b1854e8ea0d52561c319323"
+  integrity sha512-pPNAHUuNlw1FNgbSSwT9comeJUXpaTAe8yed1MVI5rT+TspIg9Wpio29ZlUjrevUxosQqka5VAD63jQS6PMaOg==
   dependencies:
-    "@visactor/vdataset" "~1.0.12"
-    "@visactor/vlayouts" "~1.0.12"
-    "@visactor/vrender-animate" "~1.0.36"
-    "@visactor/vrender-components" "~1.0.36"
-    "@visactor/vrender-core" "~1.0.36"
-    "@visactor/vrender-kits" "~1.0.36"
-    "@visactor/vscale" "~1.0.12"
-    "@visactor/vutils" "~1.0.12"
-    "@visactor/vutils-extension" "2.0.12"
+    "@visactor/vdataset" "~1.0.22"
+    "@visactor/vlayouts" "~1.0.22"
+    "@visactor/vrender-animate" "~1.0.41"
+    "@visactor/vrender-components" "~1.0.41"
+    "@visactor/vrender-core" "~1.0.41"
+    "@visactor/vrender-kits" "~1.0.41"
+    "@visactor/vscale" "~1.0.22"
+    "@visactor/vutils" "~1.0.22"
+    "@visactor/vutils-extension" "2.0.19"
 
-"@visactor/vdataset@~1.0.12":
-  version "1.0.14"
-  resolved "https://registry.npmjs.org/@visactor/vdataset/-/vdataset-1.0.14.tgz"
-  integrity sha512-V7bBDQ6iUNxWEPS34l6CJjjvhyCo+PLLZkoWOJ4Gkpk33S9aLTYDijWEdQlU6aQxjoAdbBDMuXlZ5ph6Zwe1+A==
+"@visactor/vdataset@~1.0.22":
+  version "1.0.23"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vdataset/-/vdataset-1.0.23.tgz#d0085ef5c20efe96a582dff45642890ec755b904"
+  integrity sha512-zrLk9FBUWJoW6b30XnPKzXwAXl8USdLDfed6QZLsmdkylRU8V7yZeXE2aKwU8Lg1U4HmQngqmqOx7/QlbX44Tg==
   dependencies:
     "@turf/flatten" "^6.5.0"
     "@turf/helpers" "^6.5.0"
     "@turf/rewind" "^6.5.0"
-    "@visactor/vutils" "1.0.14"
+    "@visactor/vutils" "1.0.23"
     d3-dsv "^2.0.0"
     d3-geo "^1.12.1"
     d3-hexbin "^0.2.2"
@@ -733,75 +733,91 @@
     simplify-geojson "^1.0.4"
     topojson-client "^3.1.0"
 
-"@visactor/vlayouts@~1.0.12":
-  version "1.0.14"
-  resolved "https://registry.npmjs.org/@visactor/vlayouts/-/vlayouts-1.0.14.tgz"
-  integrity sha512-nzuiRk4aaGoTpKnqmkdSa+8KGTiTBMZIPl8WPv8BqYIbqE1sql58dCx5xdF3jS8RGySL0NWHs/IWaDjF6FHTVw==
+"@visactor/vlayouts@~1.0.22":
+  version "1.0.23"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vlayouts/-/vlayouts-1.0.23.tgz#7073ef92d226966a374f4421c237d5502adf54dd"
+  integrity sha512-fK1f5LmuumhYanLArk5yrT4BZxu4IAmdc8WMwfB/KAvV+2dTPFuBUMWbWnDl0siQoU9SX9l/bLozUnI9n7BwBQ==
   dependencies:
     "@turf/helpers" "^6.5.0"
     "@turf/invariant" "^6.5.0"
-    "@visactor/vscale" "1.0.14"
-    "@visactor/vutils" "1.0.14"
+    "@visactor/vscale" "1.0.23"
+    "@visactor/vutils" "1.0.23"
     eventemitter3 "^4.0.7"
 
-"@visactor/vrender-animate@1.0.37", "@visactor/vrender-animate@~1.0.36":
-  version "1.0.37"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-animate/-/vrender-animate-1.0.37.tgz#d1efde55e8594d34e2324ea99f7f23f983413495"
-  integrity sha512-DoCZcJLsQ7jLxXl/T2BJU8Md/SyEc8OEowYPDOInjBvLUDhohpdY2Et9XzjqOSXEN68lxqlB4dmowSjpMCHZGw==
+"@visactor/vrender-animate@1.0.46", "@visactor/vrender-animate@~1.0.41":
+  version "1.0.46"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-animate/-/vrender-animate-1.0.46.tgz#ec85bc2ae8f26d52d6ce73409e15935127182afb"
+  integrity sha512-FXKot9m7M+oIlX3Ztp46B7poyc6jYDsfdxSsqqipOUtgUmVx9QJLJSEXRvdgp68cbkUFm+s+ON0bHZzZG9BOQA==
   dependencies:
-    "@visactor/vrender-core" "1.0.37"
+    "@visactor/vrender-core" "1.0.46"
     "@visactor/vutils" "~1.0.12"
 
-"@visactor/vrender-components@~1.0.36":
-  version "1.0.37"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-components/-/vrender-components-1.0.37.tgz#70b0cb0a8b842b6da8c852742ae1a4d93ff96af8"
-  integrity sha512-/fevliN94goYwSjSfC9sYkox8QgxP3/o4msIHDsEeVL+9xlt0vkdduPfdgosTJqVcO2X6uZlBMK6hCiH0S3+ww==
+"@visactor/vrender-components@~1.0.41":
+  version "1.0.46"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-components/-/vrender-components-1.0.46.tgz#01a78ffbb308af668467ec40551e564f7b409fad"
+  integrity sha512-Jgn+Wf1U4NHamCrNHdD0vIqf31BuGITYmd8/NZ8yhYa/QQ/Pw52Ybr3GUJ0oiSb9xc1nGNY097g8EkUnIp0KHQ==
   dependencies:
-    "@visactor/vrender-animate" "1.0.37"
-    "@visactor/vrender-core" "1.0.37"
-    "@visactor/vrender-kits" "1.0.37"
+    "@visactor/vrender-animate" "1.0.46"
+    "@visactor/vrender-core" "1.0.46"
+    "@visactor/vrender-kits" "1.0.46"
     "@visactor/vscale" "~1.0.12"
     "@visactor/vutils" "~1.0.12"
 
-"@visactor/vrender-core@1.0.37", "@visactor/vrender-core@~1.0.36":
-  version "1.0.37"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-core/-/vrender-core-1.0.37.tgz#4231a03b7289b89413906d0ebe774605ca4e633e"
-  integrity sha512-BxjGgTydlkzgAqRtNjFYgrHcGKCAzryGM56SxaSmjZYVRxBp/sz6Xh0q/+Pv5J/+yFKP5PEo9y/DL6quvGJ/Fg==
+"@visactor/vrender-core@1.0.46", "@visactor/vrender-core@~1.0.41":
+  version "1.0.46"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-core/-/vrender-core-1.0.46.tgz#1d266d7cd409557e257437cf7febc9a9ccdbdc51"
+  integrity sha512-iHTJ8+SZnCxXSwvyRqUJhZfvVFlsFMQQK7de+1rtdqFSS2IGRJBxXHJCaN9te7oSiStmPJHR7Eg5/QRTZtx8Vw==
   dependencies:
     "@visactor/vutils" "~1.0.12"
     color-convert "2.0.1"
 
-"@visactor/vrender-kits@1.0.37", "@visactor/vrender-kits@~1.0.36":
-  version "1.0.37"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-kits/-/vrender-kits-1.0.37.tgz#4def6721eccc45dd53aa212407c95ed50a7d3051"
-  integrity sha512-H03R5E4uTuWlKtg91cyRvcePC4Qow+jkP4yRGDAG84TWAJRQonXmXU4c7UeISMXugSz5+9wurD0UiyAhR+1nbg==
+"@visactor/vrender-kits@1.0.46", "@visactor/vrender-kits@~1.0.41":
+  version "1.0.46"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-kits/-/vrender-kits-1.0.46.tgz#c9916f8eed8eccd293ee97e8716ad6e1f64be7c9"
+  integrity sha512-JnJeu2ImSgILz8LbX2l9vvpz8tQfCvbSq4Dno8GKXsr3TUhydu+mIMkcFXM++wIEBdKRe4LFmssrQVkstyVxRA==
   dependencies:
     "@resvg/resvg-js" "2.4.1"
-    "@visactor/vrender-core" "1.0.37"
+    "@visactor/vrender-core" "1.0.46"
     "@visactor/vutils" "~1.0.12"
     gifuct-js "2.1.2"
     lottie-web "^5.12.2"
     roughjs "4.6.6"
 
-"@visactor/vscale@1.0.14", "@visactor/vscale@~1.0.12":
+"@visactor/vscale@1.0.23", "@visactor/vscale@~1.0.22":
+  version "1.0.23"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vscale/-/vscale-1.0.23.tgz#94920b16073b36fd2f6a64ca8ef7281ee5afd22e"
+  integrity sha512-XePhYuRoNAp+8MeSMuEOOvhVAlOwvM1sDT2yFxE6zdwVB2GjZk8mH+5N2xQGQWk75YmGJjlJASFtgwjlb1yWxw==
+  dependencies:
+    "@visactor/vutils" "1.0.23"
+
+"@visactor/vscale@~1.0.12":
   version "1.0.14"
   resolved "https://registry.npmjs.org/@visactor/vscale/-/vscale-1.0.14.tgz"
   integrity sha512-hpV/11eKc2BJ9ZiduM/3zNOraCIIkt209HZ+C1brqbJzM3sBNBwEofm+rT/7Ylz1LOwxFMO1WLiZiAAMt6myRw==
   dependencies:
     "@visactor/vutils" "1.0.14"
 
-"@visactor/vutils-extension@2.0.12":
-  version "2.0.12"
-  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vutils-extension/-/vutils-extension-2.0.12.tgz#964937777ca2fa8ad562e2e3fab5ad3c1b90effb"
-  integrity sha512-4/gxUbKHH2eW1L0w+Xwv9a91UJaZSfklcFRdX/hAnV471WPXNMQhgW7sdJyFdEdcKH9qb+UxsNQ4wSfDc0ry2g==
+"@visactor/vutils-extension@2.0.19":
+  version "2.0.19"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vutils-extension/-/vutils-extension-2.0.19.tgz#3f65bcc60611edddb3d107cc69300b071376e6b2"
+  integrity sha512-uRYCZFw7bYFdrSPQNIrYYsEGKuVn7lTMd4zDKBA2qnAfAZ/Y4WeXzZhQKdXgTFu5UGa292CqmVqMlVKFNWjC+A==
   dependencies:
-    "@visactor/vdataset" "~1.0.12"
-    "@visactor/vutils" "~1.0.12"
+    "@visactor/vdataset" "~1.0.22"
+    "@visactor/vutils" "~1.0.22"
 
 "@visactor/vutils@1.0.14", "@visactor/vutils@~1.0.12":
   version "1.0.14"
   resolved "https://registry.npmjs.org/@visactor/vutils/-/vutils-1.0.14.tgz"
   integrity sha512-x925pDRsyrgADjU6kcHhaMBPWG4xCD4BR0hEVzkCIU35rAX/EudQAOLK6OESvamQ+e7etuH9hE/djxztG61YSQ==
+  dependencies:
+    "@turf/helpers" "^6.5.0"
+    "@turf/invariant" "^6.5.0"
+    eventemitter3 "^4.0.7"
+
+"@visactor/vutils@1.0.23", "@visactor/vutils@~1.0.22":
+  version "1.0.23"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vutils/-/vutils-1.0.23.tgz#75f9abfea5842c3f0b19a8551d70eeb5553f474c"
+  integrity sha512-M8SLqgdHhKN8QmQKTWD1gzEaHptpIV9pvMYvC6+VeOsqYvZZ6UdhSCAAczTYVo+m/uwcEC2JHSUspbrs8rzlRQ==
   dependencies:
     "@turf/helpers" "^6.5.0"
     "@turf/invariant" "^6.5.0"
