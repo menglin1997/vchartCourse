@@ -62,6 +62,7 @@ import course31_rangeColumn01 from "../components/course/31-rangeColumnAndArea/b
 import course31_rangeArea01 from "../components/course/31-rangeColumnAndArea/rangeArea.vue";
 
 import course32_base01 from "../components/course/32-wordCloud/base01.vue";
+import course33_base01 from "../components/course/33-gauge/base01.vue";
 
 
 
@@ -177,6 +178,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course32_base01 />
+    <course33_base01 />
   </main>
 </template>
