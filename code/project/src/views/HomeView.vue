@@ -67,6 +67,9 @@ import course34_base01 from "../components/course/34-treemap/base01.vue";
 import course34_base02 from "../components/course/34-treemap/base02.vue";
 import course35_base01 from "../components/course/35-map/base01.vue";
 
+import course36_base01 from "../components/course/36-radar/base01.vue";
+import course36_base02 from "../components/course/36-radar/base02.vue";
+
 
 
 
@@ -182,6 +185,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course35_base01 />
+    <course36_base02 />
   </main>
 </template>
