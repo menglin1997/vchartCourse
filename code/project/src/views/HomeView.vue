@@ -70,16 +70,14 @@ import course35_base01 from "../components/course/35-map/base01.vue";
 import course36_base01 from "../components/course/36-radar/base01.vue";
 import course36_base02 from "../components/course/36-radar/base02.vue";
 
-<<<<<<< HEAD
 import course37_base01 from "../components/course/37-sankey/base01.vue";
 import course37_base02 from "../components/course/37-sankey/base02.vue";
 import course37_base03 from "../components/course/37-sankey/base03.vue";
 import course37_base04 from "../components/course/37-sankey/base04.vue";
-=======
-import course37_base01 from "../components/course/37-circle parking/base01.vue";
-import course37_base02 from "../components/course/37-circle parking/base02.vue";
 
->>>>>>> e3642752d6ea10446d2609e8ec44896bc4b4914a
+import course38_base01 from "../components/course/38-circleParking/base01.vue";
+import course38_base02 from "../components/course/38-circleParking/base02.vue";
+
 
 
 
