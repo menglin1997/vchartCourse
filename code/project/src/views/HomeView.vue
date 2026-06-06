@@ -194,6 +194,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course37_base04 />
+    <course38_base02 />
   </main>
 </template>

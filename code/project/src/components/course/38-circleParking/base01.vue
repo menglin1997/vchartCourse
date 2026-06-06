@@ -8,7 +8,7 @@ import { onMounted } from "vue";
 onMounted(() => {
   const spec = {
     // 四要素：类型-数据-分类字段-数值字段
-    type: "circlePacking",
+    type: "circlePacking", // 图表类型
     data: [
       {
         id: "data",
@@ -57,8 +57,8 @@ onMounted(() => {
         ],
       },
     ],
-    categoryField: "name",
-    valueField: "value",
+    categoryField: "name", // 分类字段
+    valueField: "value", // 数值字段
     label: {
       visible: true,
     },
