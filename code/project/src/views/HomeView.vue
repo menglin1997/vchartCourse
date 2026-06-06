@@ -70,6 +70,11 @@ import course35_base01 from "../components/course/35-map/base01.vue";
 import course36_base01 from "../components/course/36-radar/base01.vue";
 import course36_base02 from "../components/course/36-radar/base02.vue";
 
+import course37_base01 from "../components/course/37-sankey/base01.vue";
+import course37_base02 from "../components/course/37-sankey/base02.vue";
+import course37_base03 from "../components/course/37-sankey/base03.vue";
+import course37_base04 from "../components/course/37-sankey/base04.vue";
+
 
 
 
@@ -185,6 +190,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course36_base02 />
+    <course37_base04 />
   </main>
 </template>
