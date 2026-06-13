@@ -78,6 +78,9 @@ import course37_base04 from "../components/course/37-sankey/base04.vue";
 import course38_base01 from "../components/course/38-circleParking/base01.vue";
 import course38_base02 from "../components/course/38-circleParking/base02.vue";
 
+import course39_linearProgress from "../components/course/39-progress/linearProgress.vue";
+import course39_circularProgress from "../components/course/39-progress/circularProgress.vue";
+
 
 
 
@@ -194,6 +197,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course38_base02 />
+    <course39_circularProgress />
   </main>
 </template>
