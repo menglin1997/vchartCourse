@@ -83,6 +83,8 @@ import course39_circularProgress from "../components/course/39-progress/circular
 
 import course40_base01 from "../components/course/40-sunburst/base01.vue";
 
+import course41_base01 from "../components/course/41-correlation/base01.vue";
+
 
 
 
@@ -199,6 +201,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course40_base01 />
+    <course41_base01 />
   </main>
 </template>
