@@ -81,6 +81,8 @@ import course38_base02 from "../components/course/38-circleParking/base02.vue";
 import course39_linearProgress from "../components/course/39-progress/linearProgress.vue";
 import course39_circularProgress from "../components/course/39-progress/circularProgress.vue";
 
+import course40_base01 from "../components/course/40-sunburst/base01.vue";
+
 
 
 
@@ -197,6 +199,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course39_circularProgress />
+    <course40_base01 />
   </main>
 </template>
