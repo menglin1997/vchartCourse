@@ -88,6 +88,8 @@ import course42_base01 from "../components/course/42-liquid/base01.vue";
 
 import course43_base01 from "../components/course/43-mosaic/base01.vue";
 
+import course44_base0 from "../components/course/44-pictogram/base.vue";
+
 
 
 
@@ -205,6 +207,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course43_base01 />
+    <course44_base0 />
   </main>
 </template>
