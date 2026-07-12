@@ -90,6 +90,9 @@ import course43_base01 from "../components/course/43-mosaic/base01.vue";
 
 import course44_base0 from "../components/course/44-pictogram/base.vue";
 
+import course45_3D_pie from "../components/course/45-3D/pie3d.vue";
+import course45_3D_area from "../components/course/45-3D/area.vue";
+
 
 
 
@@ -207,6 +210,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course44_base0 />
+    <course45_3D_pie />
   </main>
 </template>
