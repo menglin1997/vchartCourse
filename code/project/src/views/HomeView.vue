@@ -96,6 +96,9 @@ import course45_3D_area from "../components/course/45-3D/area.vue";
 import course46_common from "../components/course/46-common/common.vue";
 import course46_common2 from "../components/course/46-common/common2.vue";
 
+import course47_candlestick from "../components/course/47-candlestick/base.vue";
+
+
 
 
 
@@ -212,6 +215,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course46_common2 />
+    <course47_candlestick />
   </main>
 </template>
