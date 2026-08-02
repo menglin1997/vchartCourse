@@ -98,6 +98,10 @@ import course46_common2 from "../components/course/46-common/common2.vue";
 
 import course47_candlestick from "../components/course/47-candlestick/base.vue";
 
+import course48_baseAnimation from "../components/course/48-base-animation/base.vue";
+import course48_1to1 from "../components/course/48-base-animation/1to1.vue";
+import course48_1toMul from "../components/course/48-base-animation/1toMul.vue";
+
 
 
 
@@ -215,6 +219,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course47_candlestick />
+    <course48_1toMul />
   </main>
 </template>
