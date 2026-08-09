@@ -102,6 +102,8 @@ import course48_baseAnimation from "../components/course/48-base-animation/base.
 import course48_1to1 from "../components/course/48-base-animation/1to1.vue";
 import course48_1toMul from "../components/course/48-base-animation/1toMul.vue";
 
+import course49_baseAppear from "../components/course/49-animationAppear/base.vue";
+
 
 
 
@@ -219,6 +221,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course48_1toMul />
+    <course49_baseAppear />
   </main>
 </template>
