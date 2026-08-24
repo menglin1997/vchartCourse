@@ -109,6 +109,10 @@ import course50_base2 from "../components/course/50-complexAanimation/base2.vue"
 
 import course51_layout from "../components/course/51-layout/base.vue";
 
+import course52_base01 from "../components/course/52-ICustomAnimate/base01.vue";
+import course52_base02 from "../components/course/52-ICustomAnimate/base02.vue";
+import course52_base03 from "../components/course/52-ICustomAnimate/base03.vue";
+
 
 
 
@@ -226,6 +230,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course51_layout />
+    <course52_base03 />
   </main>
 </template>

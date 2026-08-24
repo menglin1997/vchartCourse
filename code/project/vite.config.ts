@@ -16,5 +16,11 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
+    dedupe: [
+      '@visactor/vrender-core',
+      '@visactor/vrender-kits',
+      '@visactor/vrender-animate',
+      '@visactor/vrender-components',
+    ],
   },
 })

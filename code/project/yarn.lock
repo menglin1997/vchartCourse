@@ -767,6 +767,14 @@
     "@visactor/vrender-core" "1.1.1"
     "@visactor/vutils" "~1.0.12"
 
+"@visactor/vrender-animate@^1.1.8":
+  version "1.1.8"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-animate/-/vrender-animate-1.1.8.tgz#52ca1675d0be9af6698594b8fcabf7b60b6e0894"
+  integrity sha512-p6x6rFjInJIIqiPW3bqBIqjU7cIGCYm7asXYTTm6FEauzhSL6TJXxucOKTaEVCTExfHK0xaUwciq5wuaZhiUPA==
+  dependencies:
+    "@visactor/vrender-core" "1.1.8"
+    "@visactor/vutils" "~1.0.12"
+
 "@visactor/vrender-components@1.1.1":
   version "1.1.1"
   resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-components/-/vrender-components-1.1.1.tgz#3ef2950ec486739594e0b92cb1b312276069ab55"
@@ -782,6 +790,14 @@
   version "1.1.1"
   resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-core/-/vrender-core-1.1.1.tgz#3b8dfecd517844b133bf8bf8622c807952b0a856"
   integrity sha512-GumHmNqmCVl7uYJJwC3O1lAN7/rCtnSIkEuA6QDUAyFzhzFuaTtG9eDFDDU+f4AaslFZM67D3FI+c7WOFOq3vw==
+  dependencies:
+    "@visactor/vutils" "~1.0.12"
+    color-convert "2.0.1"
+
+"@visactor/vrender-core@1.1.8", "@visactor/vrender-core@^1.1.8":
+  version "1.1.8"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vrender-core/-/vrender-core-1.1.8.tgz#6f9229b6ad52c47f0d30cec2bfca071f42305b62"
+  integrity sha512-DSKEtLniC/7Cd7GxWEJC6o9/6Zf5BisqeecMbK3yqOiM0tdiP7w3OBM8wOsFyuw/Bkfr8sC5bUP0z3wQ1mMHGg==
   dependencies:
     "@visactor/vutils" "~1.0.12"
     color-convert "2.0.1"

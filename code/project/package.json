@@ -16,6 +16,8 @@
   "dependencies": {
     "@visactor/vchart": "2.1.1",
     "@visactor/vchart-extension": "2.1.1",
+    "@visactor/vrender-animate": "^1.1.8",
+    "@visactor/vrender-core": "^1.1.8",
     "pinia": "^3.0.3",
     "vue": "^3.5.22",
     "vue-router": "^4.6.3"
