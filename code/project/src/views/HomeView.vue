@@ -113,6 +113,10 @@ import course52_base01 from "../components/course/52-ICustomAnimate/base01.vue";
 import course52_base02 from "../components/course/52-ICustomAnimate/base02.vue";
 import course52_base03 from "../components/course/52-ICustomAnimate/base03.vue";
 
+import course53_base01 from "../components/course/53-ICustomLayout/base01.vue";
+
+import course54_base01 from "../components/course/54-ICustomMark/base01.vue";
+
 
 
 
@@ -230,6 +234,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course52_base03 />
+    <course54_base01 />
   </main>
 </template>
