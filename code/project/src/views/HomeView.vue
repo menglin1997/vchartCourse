@@ -117,6 +117,14 @@ import course53_base01 from "../components/course/53-ICustomLayout/base01.vue";
 
 import course54_base01 from "../components/course/54-ICustomMark/base01.vue";
 
+import course55_base01 from "../components/course/55-richAndDom/base01-label.vue";
+import course55_base02 from "../components/course/55-richAndDom/base02-axes.vue";
+import course55_base03 from "../components/course/55-richAndDom/base03-pie.vue";
+import course55_base04 from "../components/course/55-richAndDom/base04-indicator.vue";
+import course55_base05 from "../components/course/55-richAndDom/base05-customRich.vue";
+import course55_base06 from "../components/course/55-richAndDom/base06-canvas.vue";
+import course55_base07 from "../components/course/55-richAndDom/base07-dom.vue";
+
 
 
 
@@ -234,6 +242,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course54_base01 />
+    <course55_base07 />
   </main>
 </template>
