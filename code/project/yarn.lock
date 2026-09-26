@@ -709,6 +709,11 @@
     "@visactor/vrender-kits" "1.1.1"
     "@visactor/vutils" "~1.0.23"
 
+"@visactor/vchart-theme@^1.13.1":
+  version "1.13.1"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vchart-theme/-/vchart-theme-1.13.1.tgz#9e0d0f92b5bba00c9cb91329313d510ada2ce480"
+  integrity sha512-G8AZt/ddnrZcHjhaS9eAN1b+O5qD1j5MGtplfMoto22pfPQ3YJaII+fUb0fEPeU071KOVdlqoT2gTjFzpW/Suw==
+
 "@visactor/vchart@2.1.1":
   version "2.1.1"
   resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/@visactor/vchart/-/vchart-2.1.1.tgz#a9498470b45dc3368694f32a2784562d234cc0c2"
@@ -1100,6 +1105,11 @@ abs-svg-path@~0.1.1:
   version "0.1.1"
   resolved "https://registry.npmjs.org/abs-svg-path/-/abs-svg-path-0.1.1.tgz"
   integrity sha512-d8XPSGjfyzlXC3Xx891DJRyZfqk5JU0BJrDQcsWomFIV1/BIzPW5HDH5iDdWpqWaav0YVIEzT1RHTwWr0FFshA==
+
+add@^2.0.9:
+  version "2.0.9"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/add/-/add-2.0.9.tgz#35bd7a6404d966435919bd8413d11895cf28666d"
+  integrity sha512-a6+u7hP0xmII7EBQenAIb6oMp9/vcW6EmrsD0ngUbLnE69Xtwj4yCbmHLUi5LZ6ggJB+AufHTaDbW1XBiYJwFw==
 
 alien-signals@^3.0.0:
   version "3.0.4"
@@ -2113,3 +2123,8 @@ yallist@^3.0.2:
   version "3.1.1"
   resolved "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz"
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
+
+yarn@^1.22.22:
+  version "1.22.22"
+  resolved "http://nexus.yunpai.net.cn:9000/repository/npm-group/yarn/-/yarn-1.22.22.tgz#ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+  integrity sha512-prL3kGtyG7o9Z9Sv8IPfBNrWTDmXB4Qbes8A9rEzt6wkJV8mUvoirjU0Mp3GGAU06Y0XQyA3/2/RQFVuK7MTfg==

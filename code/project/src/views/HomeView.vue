@@ -125,6 +125,11 @@ import course55_base05 from "../components/course/55-richAndDom/base05-customRic
 import course55_base06 from "../components/course/55-richAndDom/base06-canvas.vue";
 import course55_base07 from "../components/course/55-richAndDom/base07-dom.vue";
 
+import course56_base01 from "../components/course/56-themeGuide/base01-type.vue";
+import course56_base02 from "../components/course/56-themeGuide/base02-custom.vue";
+import course56_base03 from "../components/course/56-themeGuide/base03-extension.vue";
+import course56_base04 from "../components/course/56-themeGuide/base04-extension2.vue";
+
 
 
 
@@ -242,6 +247,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course55_base07 />
+    <course56_base04 />
   </main>
 </template>

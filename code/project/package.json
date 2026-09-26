@@ -16,11 +16,14 @@
   "dependencies": {
     "@visactor/vchart": "2.1.1",
     "@visactor/vchart-extension": "2.1.1",
+    "@visactor/vchart-theme": "^1.13.1",
     "@visactor/vrender-animate": "^1.1.8",
     "@visactor/vrender-core": "^1.1.8",
+    "add": "^2.0.9",
     "pinia": "^3.0.3",
     "vue": "^3.5.22",
-    "vue-router": "^4.6.3"
+    "vue-router": "^4.6.3",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
