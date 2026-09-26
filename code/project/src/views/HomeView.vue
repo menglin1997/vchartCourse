@@ -130,6 +130,10 @@ import course56_base02 from "../components/course/56-themeGuide/base02-custom.vu
 import course56_base03 from "../components/course/56-themeGuide/base03-extension.vue";
 import course56_base04 from "../components/course/56-themeGuide/base04-extension2.vue";
 
+import course57_base from "../components/course/57-themeAndColorTheme/base.vue";
+import course57_base02 from "../components/course/57-themeAndColorTheme/colorTheme.vue";
+import course57_base03 from "../components/course/57-themeAndColorTheme/palette.vue";
+
 
 
 
@@ -247,6 +251,6 @@ import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
 <template>
   <main>
-    <course56_base04 />
+    <course57_base03 />
   </main>
 </template>
