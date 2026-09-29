@@ -249,12 +249,15 @@ import preview29_style03 from "../components/preview/29-funnel/style03.vue";
 
 import preview30_base01 from "../components/preview/30-sequence/base01.vue";
 
+// 技能演示-Skill demo
+import skillDemo_barChart from "../components/skillDemo/barChart.vue";
+
 
 
 </script>
 
 <template>
   <main>
-    <course58_function03 />
+    <skillDemo_barChart />
   </main>
 </template>
